@@ -1,0 +1,577 @@
+[
+  {
+    "proposal_id": "AP-0001",
+    "proposal_type": "LINK_INVOICE_TO_PROJECT",
+    "title": "Invoice INV-2026-0005 has no linked project",
+    "affected_entity_type": "Invoice",
+    "affected_entity_id": "INV-0005",
+    "risk_level": "medium",
+    "confidence": 0.77,
+    "evidence": [
+      "project_id is empty",
+      "synthetic_invoice_0005.pdf",
+      "supplier=Busan Industrial AI Tools"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0002",
+    "proposal_type": "LINK_INVOICE_TO_PROJECT",
+    "title": "Invoice INV-2026-0013 has no linked project",
+    "affected_entity_type": "Invoice",
+    "affected_entity_id": "INV-0013",
+    "risk_level": "medium",
+    "confidence": 0.56,
+    "evidence": [
+      "project_id is empty",
+      "synthetic_invoice_0013.pdf",
+      "supplier=Busan Industrial AI Tools"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0003",
+    "proposal_type": "LINK_INVOICE_TO_PROJECT",
+    "title": "Invoice INV-2026-0031 has no linked project",
+    "affected_entity_type": "Invoice",
+    "affected_entity_id": "INV-0031",
+    "risk_level": "medium",
+    "confidence": 0.92,
+    "evidence": [
+      "project_id is empty",
+      "synthetic_invoice_0031.pdf",
+      "supplier=Ulsan Sensors Ltd."
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0004",
+    "proposal_type": "LINK_INVOICE_TO_PROJECT",
+    "title": "Invoice INV-2026-0034 has no linked project",
+    "affected_entity_type": "Invoice",
+    "affected_entity_id": "INV-0034",
+    "risk_level": "medium",
+    "confidence": 0.74,
+    "evidence": [
+      "project_id is empty",
+      "synthetic_invoice_0034.pdf",
+      "supplier=Korea Vision Systems"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0005",
+    "proposal_type": "LINK_INVOICE_TO_PROJECT",
+    "title": "Invoice INV-2026-0041 has no linked project",
+    "affected_entity_type": "Invoice",
+    "affected_entity_id": "INV-0041",
+    "risk_level": "medium",
+    "confidence": 0.62,
+    "evidence": [
+      "project_id is empty",
+      "synthetic_invoice_0041.pdf",
+      "supplier=Ulsan Sensors Ltd."
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0006",
+    "proposal_type": "LINK_INVOICE_TO_PROJECT",
+    "title": "Invoice INV-2026-0047 has no linked project",
+    "affected_entity_type": "Invoice",
+    "affected_entity_id": "INV-0047",
+    "risk_level": "medium",
+    "confidence": 0.87,
+    "evidence": [
+      "project_id is empty",
+      "synthetic_invoice_0047.pdf",
+      "supplier=Daejeon Simulation Works"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0007",
+    "proposal_type": "LINK_INVOICE_TO_PROJECT",
+    "title": "Invoice INV-2026-0054 has no linked project",
+    "affected_entity_type": "Invoice",
+    "affected_entity_id": "INV-0054",
+    "risk_level": "medium",
+    "confidence": 0.61,
+    "evidence": [
+      "project_id is empty",
+      "synthetic_invoice_0054.pdf",
+      "supplier=Seoul GPU Market"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0008",
+    "proposal_type": "LINK_INVOICE_TO_PROJECT",
+    "title": "Invoice INV-2026-0063 has no linked project",
+    "affected_entity_type": "Invoice",
+    "affected_entity_id": "INV-0063",
+    "risk_level": "medium",
+    "confidence": 0.8,
+    "evidence": [
+      "project_id is empty",
+      "synthetic_invoice_0063.pdf",
+      "supplier=Ulsan Sensors Ltd."
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0009",
+    "proposal_type": "LINK_INVOICE_TO_PROJECT",
+    "title": "Invoice INV-2026-0071 has no linked project",
+    "affected_entity_type": "Invoice",
+    "affected_entity_id": "INV-0071",
+    "risk_level": "medium",
+    "confidence": 0.91,
+    "evidence": [
+      "project_id is empty",
+      "synthetic_invoice_0071.pdf",
+      "supplier=Korea Vision Systems"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0010",
+    "proposal_type": "LINK_INVOICE_TO_PROJECT",
+    "title": "Invoice INV-2026-0077 has no linked project",
+    "affected_entity_type": "Invoice",
+    "affected_entity_id": "INV-0077",
+    "risk_level": "medium",
+    "confidence": 0.95,
+    "evidence": [
+      "project_id is empty",
+      "synthetic_invoice_0077.pdf",
+      "supplier=Korea Vision Systems"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0011",
+    "proposal_type": "LINK_INVOICE_TO_PROJECT",
+    "title": "Invoice INV-2026-0079 has no linked project",
+    "affected_entity_type": "Invoice",
+    "affected_entity_id": "INV-0079",
+    "risk_level": "medium",
+    "confidence": 0.84,
+    "evidence": [
+      "project_id is empty",
+      "synthetic_invoice_0079.pdf",
+      "supplier=Gyeongnam Robotics Parts"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0012",
+    "proposal_type": "LINK_INVOICE_TO_PROJECT",
+    "title": "Invoice INV-2026-0085 has no linked project",
+    "affected_entity_type": "Invoice",
+    "affected_entity_id": "INV-0085",
+    "risk_level": "medium",
+    "confidence": 0.65,
+    "evidence": [
+      "project_id is empty",
+      "synthetic_invoice_0085.pdf",
+      "supplier=Daejeon Simulation Works"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0013",
+    "proposal_type": "LINK_INVOICE_TO_PROJECT",
+    "title": "Invoice INV-2026-0087 has no linked project",
+    "affected_entity_type": "Invoice",
+    "affected_entity_id": "INV-0087",
+    "risk_level": "medium",
+    "confidence": 0.89,
+    "evidence": [
+      "project_id is empty",
+      "synthetic_invoice_0087.pdf",
+      "supplier=Ulsan Sensors Ltd."
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0014",
+    "proposal_type": "ASSIGN_DATASET_OWNER",
+    "title": "Dataset DATA-HYDRAULIC-QU-v02-001 has no owner",
+    "affected_entity_type": "Dataset",
+    "affected_entity_id": "DS-0001",
+    "risk_level": "medium",
+    "confidence": 0.91,
+    "evidence": [
+      "owner_person_id is empty",
+      "project_id=PJ-0002"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0015",
+    "proposal_type": "ASSIGN_DATASET_OWNER",
+    "title": "Dataset DATA-CYBER-PHYSIC-v02-031 has no owner",
+    "affected_entity_type": "Dataset",
+    "affected_entity_id": "DS-0031",
+    "risk_level": "medium",
+    "confidence": 0.91,
+    "evidence": [
+      "owner_person_id is empty",
+      "project_id=PJ-0004"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0016",
+    "proposal_type": "ASSIGN_DATASET_OWNER",
+    "title": "Dataset DATA-SEMICONDUCTO-v01-041 has no owner",
+    "affected_entity_type": "Dataset",
+    "affected_entity_id": "DS-0041",
+    "risk_level": "medium",
+    "confidence": 0.91,
+    "evidence": [
+      "owner_person_id is empty",
+      "project_id=PJ-0005"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0017",
+    "proposal_type": "ASSIGN_DATASET_OWNER",
+    "title": "Dataset DATA-WELDING-INSP-v02-048 has no owner",
+    "affected_entity_type": "Dataset",
+    "affected_entity_id": "DS-0048",
+    "risk_level": "medium",
+    "confidence": 0.91,
+    "evidence": [
+      "owner_person_id is empty",
+      "project_id=PJ-0003"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0018",
+    "proposal_type": "REVIEW_MODEL_DATASET_VERSION",
+    "title": "Model MODEL-SYSTEM-ANO-004 uses an outdated dataset version",
+    "affected_entity_type": "ModelAsset",
+    "affected_entity_id": "MDL-0004",
+    "risk_level": "high",
+    "confidence": 0.88,
+    "evidence": [
+      "dataset_version_status=outdated",
+      "dataset_id=DS-0033"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0019",
+    "proposal_type": "REVIEW_MODEL_DATASET_VERSION",
+    "title": "Model MODEL-HYDRAULIC--013 uses an outdated dataset version",
+    "affected_entity_type": "ModelAsset",
+    "affected_entity_id": "MDL-0013",
+    "risk_level": "high",
+    "confidence": 0.88,
+    "evidence": [
+      "dataset_version_status=outdated",
+      "dataset_id=DS-0050"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0020",
+    "proposal_type": "REVIEW_MODEL_DATASET_VERSION",
+    "title": "Model MODEL-HYDRAULIC--028 uses an outdated dataset version",
+    "affected_entity_type": "ModelAsset",
+    "affected_entity_id": "MDL-0028",
+    "risk_level": "high",
+    "confidence": 0.88,
+    "evidence": [
+      "dataset_version_status=outdated",
+      "dataset_id=DS-0047"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0021",
+    "proposal_type": "REVIEW_OVER_BUDGET_PURCHASE",
+    "title": "Purchase request PR-2026-0004 exceeds project budget",
+    "affected_entity_type": "PurchaseRequest",
+    "affected_entity_id": "PR-0004",
+    "risk_level": "high",
+    "confidence": 0.95,
+    "evidence": [
+      "budget_check_status=over_budget",
+      "amount_krw=58403549"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0022",
+    "proposal_type": "REVIEW_OVER_BUDGET_PURCHASE",
+    "title": "Purchase request PR-2026-0019 exceeds project budget",
+    "affected_entity_type": "PurchaseRequest",
+    "affected_entity_id": "PR-0019",
+    "risk_level": "high",
+    "confidence": 0.95,
+    "evidence": [
+      "budget_check_status=over_budget",
+      "amount_krw=51231415"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0023",
+    "proposal_type": "REVIEW_OVER_BUDGET_PURCHASE",
+    "title": "Purchase request PR-2026-0030 exceeds project budget",
+    "affected_entity_type": "PurchaseRequest",
+    "affected_entity_id": "PR-0030",
+    "risk_level": "high",
+    "confidence": 0.95,
+    "evidence": [
+      "budget_check_status=over_budget",
+      "amount_krw=125102892"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0024",
+    "proposal_type": "REVIEW_OVER_BUDGET_PURCHASE",
+    "title": "Purchase request PR-2026-0038 exceeds project budget",
+    "affected_entity_type": "PurchaseRequest",
+    "affected_entity_id": "PR-0038",
+    "risk_level": "high",
+    "confidence": 0.95,
+    "evidence": [
+      "budget_check_status=over_budget",
+      "amount_krw=57312844"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0025",
+    "proposal_type": "REVIEW_OVER_BUDGET_PURCHASE",
+    "title": "Purchase request PR-2026-0052 exceeds project budget",
+    "affected_entity_type": "PurchaseRequest",
+    "affected_entity_id": "PR-0052",
+    "risk_level": "high",
+    "confidence": 0.95,
+    "evidence": [
+      "budget_check_status=over_budget",
+      "amount_krw=51849559"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0026",
+    "proposal_type": "REVIEW_OVER_BUDGET_PURCHASE",
+    "title": "Purchase request PR-2026-0053 exceeds project budget",
+    "affected_entity_type": "PurchaseRequest",
+    "affected_entity_id": "PR-0053",
+    "risk_level": "high",
+    "confidence": 0.95,
+    "evidence": [
+      "budget_check_status=over_budget",
+      "amount_krw=58158234"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0027",
+    "proposal_type": "REVIEW_OVER_BUDGET_PURCHASE",
+    "title": "Purchase request PR-2026-0063 exceeds project budget",
+    "affected_entity_type": "PurchaseRequest",
+    "affected_entity_id": "PR-0063",
+    "risk_level": "high",
+    "confidence": 0.95,
+    "evidence": [
+      "budget_check_status=over_budget",
+      "amount_krw=54902772"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0028",
+    "proposal_type": "REVIEW_OVER_BUDGET_PURCHASE",
+    "title": "Purchase request PR-2026-0065 exceeds project budget",
+    "affected_entity_type": "PurchaseRequest",
+    "affected_entity_id": "PR-0065",
+    "risk_level": "high",
+    "confidence": 0.95,
+    "evidence": [
+      "budget_check_status=over_budget",
+      "amount_krw=123376537"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0029",
+    "proposal_type": "FIX_PUBLICATION_LINEAGE",
+    "title": "Publication PUB-0002 has incomplete reproducibility lineage",
+    "affected_entity_type": "Publication",
+    "affected_entity_id": "PUB-0002",
+    "risk_level": "medium",
+    "confidence": 0.83,
+    "evidence": [
+      "missing dataset/model/experiment link",
+      "project_id=PJ-0007"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0030",
+    "proposal_type": "FIX_PUBLICATION_LINEAGE",
+    "title": "Publication PUB-0010 has incomplete reproducibility lineage",
+    "affected_entity_type": "Publication",
+    "affected_entity_id": "PUB-0010",
+    "risk_level": "medium",
+    "confidence": 0.83,
+    "evidence": [
+      "missing dataset/model/experiment link",
+      "project_id=PJ-0007"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0031",
+    "proposal_type": "FIX_PUBLICATION_LINEAGE",
+    "title": "Publication PUB-0013 has incomplete reproducibility lineage",
+    "affected_entity_type": "Publication",
+    "affected_entity_id": "PUB-0013",
+    "risk_level": "medium",
+    "confidence": 0.83,
+    "evidence": [
+      "missing dataset/model/experiment link",
+      "project_id=PJ-0005"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0032",
+    "proposal_type": "FIX_PUBLICATION_LINEAGE",
+    "title": "Publication PUB-0023 has incomplete reproducibility lineage",
+    "affected_entity_type": "Publication",
+    "affected_entity_id": "PUB-0023",
+    "risk_level": "medium",
+    "confidence": 0.83,
+    "evidence": [
+      "missing dataset/model/experiment link",
+      "project_id=PJ-0005"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0033",
+    "proposal_type": "FIX_PUBLICATION_LINEAGE",
+    "title": "Publication PUB-0026 has incomplete reproducibility lineage",
+    "affected_entity_type": "Publication",
+    "affected_entity_id": "PUB-0026",
+    "risk_level": "medium",
+    "confidence": 0.83,
+    "evidence": [
+      "missing dataset/model/experiment link",
+      "project_id=PJ-0006"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0034",
+    "proposal_type": "RESOLVE_EQUIPMENT_CONFLICT",
+    "title": "Equipment conflict detected for reservation RSV-0901",
+    "affected_entity_type": "EquipmentReservation",
+    "affected_entity_id": "RSV-0901",
+    "risk_level": "high",
+    "confidence": 0.96,
+    "evidence": [
+      "equipment_id=EQ-0001",
+      "start_time=2026-07-15T10:00:00",
+      "end_time=2026-07-15T14:00:00"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  },
+  {
+    "proposal_id": "AP-0035",
+    "proposal_type": "RESOLVE_EQUIPMENT_CONFLICT",
+    "title": "Equipment conflict detected for reservation RSV-0902",
+    "affected_entity_type": "EquipmentReservation",
+    "affected_entity_id": "RSV-0902",
+    "risk_level": "high",
+    "confidence": 0.96,
+    "evidence": [
+      "equipment_id=EQ-0001",
+      "start_time=2026-07-15T12:00:00",
+      "end_time=2026-07-15T16:00:00"
+    ],
+    "status": "pending",
+    "created_at": "2026-06-02T10:02:30+00:00",
+    "requires_approval": true
+  }
+]

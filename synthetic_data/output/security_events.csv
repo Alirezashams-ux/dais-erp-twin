@@ -1,0 +1,27 @@
+security_event_id,event_type,actor_person_id,actor_role,description,severity,timestamp,resolution
+SEC-0001,ACCESS_DENIED,P-0024,Guest,Access denied: Dataset DS-0048 (sensitivity=high),medium,2026-05-29T09:44:00,policy_enforced
+SEC-0002,ACCESS_DENIED,P-0021,Guest,Access denied: Dataset DS-0009 (sensitivity=medium),medium,2026-05-15T18:59:00,policy_enforced
+SEC-0003,ACCESS_DENIED,P-0024,Guest,Access denied: Dataset DS-0035 (sensitivity=medium),medium,2026-05-30T12:49:00,policy_enforced
+SEC-0004,ACCESS_DENIED,P-0024,Guest,Access denied: Dataset DS-0011 (sensitivity=medium),medium,2026-05-09T10:49:00,policy_enforced
+SEC-0005,ACCESS_DENIED,P-0021,Guest,Access denied: Dataset DS-0015 (sensitivity=high),medium,2026-05-13T14:21:00,policy_enforced
+SEC-0006,ACCESS_DENIED,P-0021,Guest,Access denied: Dataset DS-0004 (sensitivity=medium),medium,2026-05-06T15:04:00,policy_enforced
+SEC-0007,ACCESS_DENIED,P-0018,Guest,Access denied: Dataset DS-0028 (sensitivity=medium),medium,2026-05-06T18:31:00,policy_enforced
+SEC-0008,ACCESS_DENIED,P-0018,Guest,Access denied: Dataset DS-0042 (sensitivity=medium),medium,2026-05-25T14:13:00,policy_enforced
+SEC-0009,ACCESS_DENIED,P-0024,Guest,Access denied: Dataset DS-0032 (sensitivity=high),medium,2026-05-30T15:45:00,policy_enforced
+SEC-0010,ACCESS_DENIED,P-0018,Guest,Access denied: Dataset DS-0014 (sensitivity=high),medium,2026-05-03T09:36:00,policy_enforced
+SEC-0011,ACCESS_DENIED,P-0021,Guest,Access denied: Dataset DS-0034 (sensitivity=medium),medium,2026-05-01T15:09:00,policy_enforced
+SEC-0012,ACCESS_DENIED,P-0024,Guest,Access denied: Dataset DS-0007 (sensitivity=high),medium,2026-05-30T08:42:00,policy_enforced
+SEC-0013,ACCESS_DENIED,P-0021,Guest,Access denied: Dataset DS-0037 (sensitivity=high),medium,2026-05-23T13:57:00,policy_enforced
+SEC-0014,ACCESS_DENIED,P-0024,Guest,Access denied: Dataset DS-0007 (sensitivity=high),medium,2026-05-17T19:49:00,policy_enforced
+SEC-0015,ACCESS_DENIED,P-0021,Guest,Access denied: Dataset DS-0030 (sensitivity=medium),medium,2026-05-13T19:49:00,policy_enforced
+SEC-0016,ACCESS_DENIED,P-0024,Guest,Access denied: Dataset DS-0002 (sensitivity=medium),medium,2026-05-01T14:44:00,policy_enforced
+SEC-0017,ACCESS_DENIED,P-0021,Guest,Access denied: Dataset DS-0033 (sensitivity=high),medium,2026-05-19T16:59:00,policy_enforced
+SEC-0018,ACCESS_DENIED,P-0021,Guest,Access denied: Dataset DS-0010 (sensitivity=medium),medium,2026-05-13T08:40:00,policy_enforced
+SEC-0019,ACCESS_DENIED,P-0018,Guest,Access denied: Dataset DS-0020 (sensitivity=medium),medium,2026-05-18T13:05:00,policy_enforced
+SEC-0020,ACCESS_DENIED,P-0021,Guest,Access denied: Dataset DS-0049 (sensitivity=high),medium,2026-05-06T16:02:00,policy_enforced
+SEC-0021,POLICY_VIOLATION_BLOCKED,SystemAgent,SystemAgent,SystemAgent attempted to self-approve AgentProposal AP-0001 — blocked by role_permissions policy,high,2026-05-15T14:32:11+00:00,blocked
+SEC-0022,HIGH_RISK_PROPOSAL_FLAGGED,SystemAgent,SystemAgent,Proposal AP-0018 (REVIEW_MODEL_DATASET_VERSION) requires professor approval,high,2026-06-02T10:02:30+00:00,pending_professor_review
+SEC-0023,HIGH_RISK_PROPOSAL_FLAGGED,SystemAgent,SystemAgent,Proposal AP-0019 (REVIEW_MODEL_DATASET_VERSION) requires professor approval,high,2026-06-02T10:02:30+00:00,pending_professor_review
+SEC-0024,HIGH_RISK_PROPOSAL_FLAGGED,SystemAgent,SystemAgent,Proposal AP-0020 (REVIEW_MODEL_DATASET_VERSION) requires professor approval,high,2026-06-02T10:02:30+00:00,pending_professor_review
+SEC-0025,HIGH_RISK_PROPOSAL_FLAGGED,SystemAgent,SystemAgent,Proposal AP-0021 (REVIEW_OVER_BUDGET_PURCHASE) requires professor approval,high,2026-06-02T10:02:30+00:00,pending_professor_review
+SEC-0026,HIGH_RISK_PROPOSAL_FLAGGED,SystemAgent,SystemAgent,Proposal AP-0022 (REVIEW_OVER_BUDGET_PURCHASE) requires professor approval,high,2026-06-02T10:02:30+00:00,pending_professor_review

@@ -1,0 +1,41 @@
+model_id,model_code,project_id,dataset_id,name,model_type,version,dataset_version_status,accuracy,f1_score,false_alarm_rate,deployment_status,code_commit
+MDL-0001,MODEL-WELDING-IN-001,PJ-0003,DS-0048,Synthetic Welding inspection AI Model 001,XGBoost,v02,current,0.836,0.785,0.065,research,895c2d43080f
+MDL-0002,MODEL-WELDING-IN-002,PJ-0003,DS-0029,Synthetic Welding inspection AI Model 002,XGBoost,v05,current,0.892,0.782,0.139,research,51843a546e43
+MDL-0003,MODEL-SYSTEM-ANO-003,PJ-0008,DS-0016,Synthetic System anomaly detection Model 003,Transformer,v02,current,0.981,0.783,0.097,research,cdf5b06943ca
+MDL-0004,MODEL-SYSTEM-ANO-004,PJ-0008,DS-0033,Synthetic System anomaly detection Model 004,NormalizingFlow,v06,outdated,0.881,0.815,0.085,research,c1b73b68d14f
+MDL-0005,MODEL-CYBER-PHYS-005,PJ-0004,DS-0031,Synthetic Cyber-physical systems Model 005,Transformer,v08,current,0.955,0.81,0.015,demo,34a28c2b81b2
+MDL-0006,MODEL-WELDING-IN-006,PJ-0003,DS-0029,Synthetic Welding inspection AI Model 006,NormalizingFlow,v07,current,0.727,0.977,0.165,archived,9036047dbb9c
+MDL-0007,MODEL-HYDRAULIC--007,PJ-0002,DS-0012,Synthetic Hydraulic quality monitoring Model 007,RandomForest,v05,current,0.848,0.74,0.152,archived,4c1336e223d1
+MDL-0008,MODEL-CYBER-PHYS-008,PJ-0004,DS-0039,Synthetic Cyber-physical systems Model 008,XGBoost,v04,current,0.967,0.818,0.159,research,a8fd2bcb5fb3
+MDL-0009,MODEL-SEMICONDUC-009,PJ-0005,DS-0036,Synthetic Semiconductor digital twin Model 009,DigitalTwinSimulator,v09,current,0.777,0.651,0.133,archived,1ba42b014f35
+MDL-0010,MODEL-WELDING-IN-010,PJ-0003,DS-0048,Synthetic Welding inspection AI Model 010,Transformer,v06,current,0.86,0.829,0.087,pilot,e5cc765ac5b7
+MDL-0011,MODEL-CYBER-PHYS-011,PJ-0004,DS-0013,Synthetic Cyber-physical systems Model 011,LSTM,v07,current,0.713,0.896,0.13,archived,cdffce7d9a50
+MDL-0012,MODEL-MACHINE-VI-012,PJ-0007,DS-0014,Synthetic Machine vision Model 012,CNN,v03,current,0.846,0.845,0.158,archived,fa162c4ce39e
+MDL-0013,MODEL-HYDRAULIC--013,PJ-0002,DS-0050,Synthetic Hydraulic quality monitoring Model 013,LSTM,v07,outdated,0.953,0.97,0.023,pilot,4e13618b5a3f
+MDL-0014,MODEL-PROCESS-MI-014,PJ-0006,DS-0027,Synthetic Process mining Model 014,RandomForest,v02,current,0.947,0.931,0.156,archived,314911c15bdf
+MDL-0015,MODEL-PROCESS-MI-015,PJ-0006,DS-0028,Synthetic Process mining Model 015,DigitalTwinSimulator,v08,current,0.953,0.662,0.022,pilot,c104c506d0a1
+MDL-0016,MODEL-CYBER-PHYS-016,PJ-0004,DS-0009,Synthetic Cyber-physical systems Model 016,CNN,v11,current,0.904,0.683,0.038,pilot,034849f441de
+MDL-0017,MODEL-BESS-SAFET-017,PJ-0001,DS-0025,Synthetic BESS safety AI Model 017,CNN,v05,current,0.804,0.792,0.052,archived,558d4e3b7570
+MDL-0018,MODEL-WELDING-IN-018,PJ-0003,DS-0011,Synthetic Welding inspection AI Model 018,NormalizingFlow,v07,current,0.88,0.729,0.165,demo,d80ec090913d
+MDL-0019,MODEL-CYBER-PHYS-019,PJ-0004,DS-0039,Synthetic Cyber-physical systems Model 019,XGBoost,v05,current,0.893,0.947,0.089,pilot,5ca2aa6a7175
+MDL-0020,MODEL-WELDING-IN-020,PJ-0003,DS-0006,Synthetic Welding inspection AI Model 020,Transformer,v10,current,0.787,0.967,0.127,archived,dcb3bcf2c7e0
+MDL-0021,MODEL-SEMICONDUC-021,PJ-0005,DS-0015,Synthetic Semiconductor digital twin Model 021,DigitalTwinSimulator,v08,current,0.731,0.776,0.071,pilot,ea17d6f1286e
+MDL-0022,MODEL-SEMICONDUC-022,PJ-0005,DS-0003,Synthetic Semiconductor digital twin Model 022,RandomForest,v07,current,0.78,0.837,0.127,research,2e2f1346bc37
+MDL-0023,MODEL-SYSTEM-ANO-023,PJ-0008,DS-0033,Synthetic System anomaly detection Model 023,LSTM,v10,current,0.933,0.722,0.042,pilot,fcc72ad7fd84
+MDL-0024,MODEL-WELDING-IN-024,PJ-0003,DS-0006,Synthetic Welding inspection AI Model 024,RandomForest,v01,current,0.79,0.795,0.109,demo,f2e3498ed560
+MDL-0025,MODEL-HYDRAULIC--025,PJ-0002,DS-0030,Synthetic Hydraulic quality monitoring Model 025,XGBoost,v03,current,0.758,0.91,0.159,pilot,9bb96d602e25
+MDL-0026,MODEL-SEMICONDUC-026,PJ-0005,DS-0005,Synthetic Semiconductor digital twin Model 026,DigitalTwinSimulator,v08,current,0.981,0.747,0.158,research,5151596d7a72
+MDL-0027,MODEL-SYSTEM-ANO-027,PJ-0008,DS-0016,Synthetic System anomaly detection Model 027,LSTM,v11,current,0.91,0.973,0.174,pilot,87cf3564fe23
+MDL-0028,MODEL-HYDRAULIC--028,PJ-0002,DS-0047,Synthetic Hydraulic quality monitoring Model 028,NormalizingFlow,v02,outdated,0.832,0.872,0.124,archived,0357ca7c3d8c
+MDL-0029,MODEL-PROCESS-MI-029,PJ-0006,DS-0002,Synthetic Process mining Model 029,XGBoost,v01,current,0.88,0.961,0.066,demo,26344d1731ed
+MDL-0030,MODEL-HYDRAULIC--030,PJ-0002,DS-0050,Synthetic Hydraulic quality monitoring Model 030,Transformer,v11,current,0.818,0.696,0.171,pilot,f745b9abfeaf
+MDL-0031,MODEL-SYSTEM-ANO-031,PJ-0008,DS-0016,Synthetic System anomaly detection Model 031,NormalizingFlow,v03,current,0.813,0.772,0.171,archived,f789c8e982ff
+MDL-0032,MODEL-WELDING-IN-032,PJ-0003,DS-0048,Synthetic Welding inspection AI Model 032,DigitalTwinSimulator,v08,current,0.879,0.96,0.058,pilot,84cfec574fd0
+MDL-0033,MODEL-CYBER-PHYS-033,PJ-0004,DS-0039,Synthetic Cyber-physical systems Model 033,LSTM,v06,current,0.729,0.876,0.103,pilot,d38b79687a1a
+MDL-0034,MODEL-BESS-SAFET-034,PJ-0001,DS-0026,Synthetic BESS safety AI Model 034,CNN,v08,current,0.727,0.72,0.119,research,71a776f29cf5
+MDL-0035,MODEL-BESS-SAFET-035,PJ-0001,DS-0026,Synthetic BESS safety AI Model 035,LSTM,v10,current,0.76,0.924,0.104,demo,cd04126553a5
+MDL-0036,MODEL-CYBER-PHYS-036,PJ-0004,DS-0031,Synthetic Cyber-physical systems Model 036,DigitalTwinSimulator,v10,current,0.701,0.933,0.035,demo,7df61098457b
+MDL-0037,MODEL-SEMICONDUC-037,PJ-0005,DS-0005,Synthetic Semiconductor digital twin Model 037,DigitalTwinSimulator,v01,current,0.738,0.768,0.144,pilot,ce18b1b67b0d
+MDL-0038,MODEL-BESS-SAFET-038,PJ-0001,DS-0025,Synthetic BESS safety AI Model 038,LSTM,v12,current,0.822,0.688,0.021,archived,9e8137f2a5cf
+MDL-0039,MODEL-PROCESS-MI-039,PJ-0006,DS-0027,Synthetic Process mining Model 039,XGBoost,v09,current,0.764,0.853,0.134,pilot,16e19c24f519
+MDL-0040,MODEL-SYSTEM-ANO-040,PJ-0008,DS-0037,Synthetic System anomaly detection Model 040,CNN,v08,current,0.946,0.791,0.028,archived,292b8be37f4c

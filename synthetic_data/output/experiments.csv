@@ -1,0 +1,121 @@
+experiment_id,experiment_code,project_id,dataset_id,model_id,equipment_id,researcher_person_id,status,started_at,completed_at,failed_at,failure_reason,result_json,reproducibility_score
+EXP-0001,EXP-2026-0001,PJ-0002,DS-0012,MDL-0007,EQ-0003,P-0023,completed,2026-06-03T23:08:35,2026-06-07T05:08:35,,,"{""loss"": 0.131, ""accuracy"": 0.884, ""notes"": ""synthetic experiment result""}",0.83
+EXP-0002,EXP-2026-0002,PJ-0005,DS-0005,MDL-0026,EQ-0004,P-0023,completed,2026-04-11T18:04:48,2026-04-14T03:04:48,,,"{""loss"": 0.3852, ""accuracy"": 0.889, ""notes"": ""synthetic experiment result""}",0.83
+EXP-0003,EXP-2026-0003,PJ-0008,DS-0033,MDL-0004,EQ-0015,P-0017,failed,2026-04-19T11:52:21,,2026-04-20T11:52:21,Dataset loader timeout after 3 retries,,0.62
+EXP-0004,EXP-2026-0004,PJ-0008,DS-0016,MDL-0003,EQ-0003,P-0008,failed,2026-06-22T21:07:31,,2026-06-24T09:07:31,Equipment disconnected mid-run,,0.74
+EXP-0005,EXP-2026-0005,PJ-0006,DS-0027,MDL-0014,EQ-0014,P-0015,completed,2026-06-22T12:42:49,2026-06-23T17:42:49,,,"{""loss"": 0.4361, ""accuracy"": 0.874, ""notes"": ""synthetic experiment result""}",0.5
+EXP-0006,EXP-2026-0006,PJ-0003,DS-0048,MDL-0032,EQ-0012,P-0025,pending,,,,,,0.57
+EXP-0007,EXP-2026-0007,PJ-0007,DS-0014,MDL-0012,EQ-0009,P-0013,completed,2026-05-08T03:53:15,2026-05-08T05:53:15,,,"{""loss"": 0.0894, ""accuracy"": 0.904, ""notes"": ""synthetic experiment result""}",0.94
+EXP-0008,EXP-2026-0008,PJ-0003,DS-0029,MDL-0006,EQ-0003,P-0006,completed,2026-05-07T18:35:30,2026-05-09T20:35:30,,,"{""loss"": 0.336, ""accuracy"": 0.982, ""notes"": ""synthetic experiment result""}",0.85
+EXP-0009,EXP-2026-0009,PJ-0007,DS-0014,MDL-0012,EQ-0010,P-0006,running,2026-03-31T05:03:17,,,,,0.92
+EXP-0010,EXP-2026-0010,PJ-0003,DS-0048,MDL-0001,EQ-0015,P-0012,failed,2026-07-04T11:42:24,,2026-07-04T19:42:24,Numerical instability — loss became NaN at epoch 12,,0.56
+EXP-0011,EXP-2026-0011,PJ-0007,DS-0014,MDL-0012,EQ-0019,P-0011,failed,2026-06-25T09:03:24,,2026-06-25T13:03:24,OOM: GPU memory exceeded during training,,0.66
+EXP-0012,EXP-2026-0012,PJ-0004,DS-0013,MDL-0011,EQ-0009,P-0017,running,2026-05-13T19:53:42,,,,,0.54
+EXP-0013,EXP-2026-0013,PJ-0004,DS-0039,MDL-0019,EQ-0012,P-0017,completed,2026-08-26T20:55:41,2026-08-27T07:55:41,,,"{""loss"": 0.1847, ""accuracy"": 0.915, ""notes"": ""synthetic experiment result""}",0.46
+EXP-0014,EXP-2026-0014,PJ-0006,DS-0027,MDL-0039,EQ-0014,P-0014,running,2026-07-14T00:40:21,,,,,0.54
+EXP-0015,EXP-2026-0015,PJ-0008,DS-0037,MDL-0040,EQ-0004,P-0006,completed,2026-04-30T05:59:03,2026-05-04T06:59:03,,,"{""loss"": 0.2017, ""accuracy"": 0.816, ""notes"": ""synthetic experiment result""}",0.66
+EXP-0016,EXP-2026-0016,PJ-0006,DS-0028,MDL-0015,EQ-0003,P-0010,pending,,,,,,0.93
+EXP-0017,EXP-2026-0017,PJ-0006,DS-0002,MDL-0029,EQ-0005,P-0009,completed,2026-08-10T14:51:36,2026-08-14T17:51:36,,,"{""loss"": 0.0552, ""accuracy"": 0.774, ""notes"": ""synthetic experiment result""}",0.77
+EXP-0018,EXP-2026-0018,PJ-0002,DS-0050,MDL-0013,EQ-0015,P-0025,pending,,,,,,0.79
+EXP-0019,EXP-2026-0019,PJ-0006,DS-0002,MDL-0029,EQ-0016,P-0025,failed,2026-06-22T12:21:40,,2026-06-22T17:21:40,Numerical instability — loss became NaN at epoch 12,,0.48
+EXP-0020,EXP-2026-0020,PJ-0008,DS-0016,MDL-0027,EQ-0010,P-0006,completed,2026-06-07T11:06:26,2026-06-09T14:06:26,,,"{""loss"": 0.2937, ""accuracy"": 0.983, ""notes"": ""synthetic experiment result""}",0.78
+EXP-0021,EXP-2026-0021,PJ-0008,DS-0016,MDL-0031,EQ-0002,P-0010,failed,2026-06-01T08:35:30,,2026-06-02T17:35:30,Dataset loader timeout after 3 retries,,0.62
+EXP-0022,EXP-2026-0022,PJ-0001,DS-0025,MDL-0038,EQ-0011,P-0011,completed,2026-05-25T07:51:14,2026-05-28T04:51:14,,,"{""loss"": 0.232, ""accuracy"": 0.75, ""notes"": ""synthetic experiment result""}",0.83
+EXP-0023,EXP-2026-0023,PJ-0003,DS-0006,MDL-0020,EQ-0013,P-0005,failed,2026-07-30T16:39:41,,2026-07-31T14:39:41,OOM: GPU memory exceeded during training,,0.87
+EXP-0024,EXP-2026-0024,PJ-0006,DS-0027,MDL-0014,EQ-0010,P-0008,running,2026-07-07T03:45:46,,,,,0.63
+EXP-0025,EXP-2026-0025,PJ-0003,DS-0006,MDL-0020,EQ-0013,P-0013,completed,2026-07-29T22:53:45,2026-08-03T05:53:45,,,"{""loss"": 0.2718, ""accuracy"": 0.972, ""notes"": ""synthetic experiment result""}",0.75
+EXP-0026,EXP-2026-0026,PJ-0006,DS-0028,MDL-0015,EQ-0017,P-0015,completed,2026-05-14T23:25:12,2026-05-16T00:25:12,,,"{""loss"": 0.2943, ""accuracy"": 0.823, ""notes"": ""synthetic experiment result""}",0.46
+EXP-0027,EXP-2026-0027,PJ-0004,DS-0013,MDL-0011,EQ-0008,P-0007,completed,2026-06-13T19:30:50,2026-06-18T07:30:50,,,"{""loss"": 0.0782, ""accuracy"": 0.786, ""notes"": ""synthetic experiment result""}",0.72
+EXP-0028,EXP-2026-0028,PJ-0001,DS-0026,MDL-0035,EQ-0020,P-0009,failed,2026-03-09T11:37:17,,2026-03-10T14:37:17,Numerical instability — loss became NaN at epoch 12,,0.83
+EXP-0029,EXP-2026-0029,PJ-0004,DS-0009,MDL-0016,EQ-0015,P-0020,completed,2026-04-07T16:10:51,2026-04-09T17:10:51,,,"{""loss"": 0.245, ""accuracy"": 0.79, ""notes"": ""synthetic experiment result""}",0.93
+EXP-0030,EXP-2026-0030,PJ-0008,DS-0016,MDL-0027,EQ-0013,P-0010,pending,,,,,,0.87
+EXP-0031,EXP-2026-0031,PJ-0003,DS-0011,MDL-0018,EQ-0012,P-0022,pending,,,,,,0.9
+EXP-0032,EXP-2026-0032,PJ-0005,DS-0036,MDL-0009,EQ-0015,P-0011,pending,,,,,,0.88
+EXP-0033,EXP-2026-0033,PJ-0006,DS-0027,MDL-0014,EQ-0017,P-0015,running,2026-05-16T21:10:44,,,,,0.57
+EXP-0034,EXP-2026-0034,PJ-0002,DS-0030,MDL-0025,EQ-0010,P-0020,failed,2026-03-23T00:28:20,,2026-03-23T06:28:20,OOM: GPU memory exceeded during training,,0.69
+EXP-0035,EXP-2026-0035,PJ-0005,DS-0015,MDL-0021,EQ-0020,P-0011,pending,,,,,,0.61
+EXP-0036,EXP-2026-0036,PJ-0001,DS-0026,MDL-0034,EQ-0020,P-0020,failed,2026-03-04T04:35:39,,2026-03-05T21:35:39,Equipment disconnected mid-run,,0.77
+EXP-0037,EXP-2026-0037,PJ-0004,DS-0039,MDL-0033,EQ-0001,P-0009,pending,,,,,,0.8
+EXP-0038,EXP-2026-0038,PJ-0002,DS-0050,MDL-0030,EQ-0017,P-0023,pending,,,,,,0.46
+EXP-0039,EXP-2026-0039,PJ-0008,DS-0016,MDL-0003,EQ-0012,P-0006,running,2026-07-21T07:45:09,,,,,0.63
+EXP-0040,EXP-2026-0040,PJ-0002,DS-0050,MDL-0030,EQ-0005,P-0009,completed,2026-08-01T22:51:07,2026-08-04T11:51:07,,,"{""loss"": 0.165, ""accuracy"": 0.798, ""notes"": ""synthetic experiment result""}",0.89
+EXP-0041,EXP-2026-0041,PJ-0008,DS-0037,MDL-0040,EQ-0003,P-0010,failed,2026-05-01T06:46:59,,2026-05-02T02:46:59,Equipment disconnected mid-run,,0.92
+EXP-0042,EXP-2026-0042,PJ-0007,DS-0014,MDL-0012,,P-0005,completed,2026-05-04T10:52:52,2026-05-05T22:52:52,,,"{""loss"": 0.1359, ""accuracy"": 0.95, ""notes"": ""synthetic experiment result""}",0.91
+EXP-0043,EXP-2026-0043,PJ-0002,DS-0030,MDL-0025,EQ-0015,P-0020,failed,2026-08-23T19:38:41,,2026-08-25T05:38:41,Numerical instability — loss became NaN at epoch 12,,0.64
+EXP-0044,EXP-2026-0044,PJ-0002,DS-0047,MDL-0028,EQ-0006,P-0014,pending,,,,,,0.8
+EXP-0045,EXP-2026-0045,PJ-0005,DS-0005,MDL-0026,EQ-0006,P-0015,failed,2026-05-24T10:58:10,,2026-05-25T04:58:10,Hyperparameter config validation error,,0.78
+EXP-0046,EXP-2026-0046,PJ-0001,DS-0025,MDL-0017,EQ-0012,P-0004,pending,,,,,,0.53
+EXP-0047,EXP-2026-0047,PJ-0008,DS-0016,MDL-0003,EQ-0012,P-0008,running,2026-05-12T00:49:11,,,,,0.81
+EXP-0048,EXP-2026-0048,PJ-0006,DS-0027,MDL-0039,EQ-0005,P-0012,pending,,,,,,0.58
+EXP-0049,EXP-2026-0049,PJ-0002,DS-0012,MDL-0007,EQ-0017,P-0012,failed,2026-05-02T15:58:14,,2026-05-04T07:58:14,Numerical instability — loss became NaN at epoch 12,,0.82
+EXP-0050,EXP-2026-0050,PJ-0008,DS-0033,MDL-0004,EQ-0003,P-0006,failed,2026-08-12T04:24:52,,2026-08-13T01:24:52,Hyperparameter config validation error,,0.88
+EXP-0051,EXP-2026-0051,PJ-0006,DS-0027,MDL-0014,EQ-0010,P-0009,completed,2026-06-22T18:58:25,2026-06-24T00:58:25,,,"{""loss"": 0.3232, ""accuracy"": 0.969, ""notes"": ""synthetic experiment result""}",0.87
+EXP-0052,EXP-2026-0052,PJ-0002,DS-0050,MDL-0013,EQ-0016,P-0019,completed,2026-07-07T02:51:39,2026-07-07T20:51:39,,,"{""loss"": 0.1688, ""accuracy"": 0.866, ""notes"": ""synthetic experiment result""}",0.88
+EXP-0053,EXP-2026-0053,PJ-0002,DS-0012,MDL-0007,EQ-0016,P-0025,pending,,,,,,0.49
+EXP-0054,EXP-2026-0054,PJ-0006,DS-0027,MDL-0014,EQ-0017,P-0023,running,2026-04-20T08:00:34,,,,,0.79
+EXP-0055,EXP-2026-0055,PJ-0003,DS-0006,MDL-0024,EQ-0002,P-0009,completed,2026-08-11T17:43:38,2026-08-12T23:43:38,,,"{""loss"": 0.238, ""accuracy"": 0.788, ""notes"": ""synthetic experiment result""}",0.62
+EXP-0056,EXP-2026-0056,PJ-0006,DS-0002,MDL-0029,EQ-0018,P-0023,running,2026-07-18T11:13:04,,,,,0.5
+EXP-0057,EXP-2026-0057,PJ-0003,DS-0029,MDL-0006,EQ-0020,P-0004,running,2026-07-29T13:23:27,,,,,0.49
+EXP-0058,EXP-2026-0058,PJ-0005,DS-0015,MDL-0021,EQ-0020,P-0013,completed,2026-04-28T15:51:38,2026-05-01T06:51:38,,,"{""loss"": 0.2291, ""accuracy"": 0.882, ""notes"": ""synthetic experiment result""}",0.79
+EXP-0059,EXP-2026-0059,PJ-0004,DS-0031,MDL-0036,EQ-0015,P-0017,completed,2026-04-09T14:48:58,2026-04-11T11:48:58,,,"{""loss"": 0.313, ""accuracy"": 0.746, ""notes"": ""synthetic experiment result""}",0.71
+EXP-0060,EXP-2026-0060,PJ-0003,DS-0006,MDL-0020,EQ-0012,P-0023,failed,2026-05-12T22:34:48,,2026-05-14T04:34:48,OOM: GPU memory exceeded during training,,0.51
+EXP-0061,EXP-2026-0061,PJ-0005,DS-0005,MDL-0026,EQ-0002,P-0017,running,2026-08-16T00:37:30,,,,,0.58
+EXP-0062,EXP-2026-0062,PJ-0003,DS-0006,MDL-0020,EQ-0007,P-0020,completed,2026-07-01T13:54:48,2026-07-01T17:54:48,,,"{""loss"": 0.2292, ""accuracy"": 0.849, ""notes"": ""synthetic experiment result""}",0.92
+EXP-0063,EXP-2026-0063,PJ-0002,DS-0047,MDL-0028,EQ-0008,P-0013,completed,2026-07-27T01:04:21,2026-07-30T17:04:21,,,"{""loss"": 0.2667, ""accuracy"": 0.714, ""notes"": ""synthetic experiment result""}",0.71
+EXP-0064,EXP-2026-0064,PJ-0008,DS-0033,MDL-0023,,P-0015,completed,2026-05-11T01:23:30,2026-05-11T08:23:30,,,"{""loss"": 0.1996, ""accuracy"": 0.956, ""notes"": ""synthetic experiment result""}",0.85
+EXP-0065,EXP-2026-0065,PJ-0007,DS-0014,MDL-0012,EQ-0012,P-0019,pending,,,,,,0.86
+EXP-0066,EXP-2026-0066,PJ-0005,DS-0005,MDL-0037,EQ-0005,P-0014,completed,2026-05-10T23:50:57,2026-05-15T01:50:57,,,"{""loss"": 0.1833, ""accuracy"": 0.931, ""notes"": ""synthetic experiment result""}",0.75
+EXP-0067,EXP-2026-0067,PJ-0003,DS-0048,MDL-0010,EQ-0017,P-0014,completed,2026-07-05T20:15:57,2026-07-08T08:15:57,,,"{""loss"": 0.0299, ""accuracy"": 0.74, ""notes"": ""synthetic experiment result""}",0.88
+EXP-0068,EXP-2026-0068,PJ-0003,DS-0029,MDL-0006,EQ-0011,P-0013,completed,2026-07-03T12:15:33,2026-07-08T00:15:33,,,"{""loss"": 0.1829, ""accuracy"": 0.879, ""notes"": ""synthetic experiment result""}",0.76
+EXP-0069,EXP-2026-0069,PJ-0008,DS-0037,MDL-0040,EQ-0001,P-0017,running,2026-08-02T17:08:47,,,,,0.76
+EXP-0070,EXP-2026-0070,PJ-0001,DS-0025,MDL-0038,EQ-0019,P-0020,pending,,,,,,0.54
+EXP-0071,EXP-2026-0071,PJ-0007,DS-0014,MDL-0012,EQ-0019,P-0017,completed,2026-07-13T01:57:52,2026-07-14T05:57:52,,,"{""loss"": 0.0939, ""accuracy"": 0.828, ""notes"": ""synthetic experiment result""}",0.53
+EXP-0072,EXP-2026-0072,PJ-0007,DS-0014,MDL-0012,EQ-0005,P-0020,pending,,,,,,0.73
+EXP-0073,EXP-2026-0073,PJ-0006,DS-0028,MDL-0015,EQ-0011,P-0012,pending,,,,,,0.77
+EXP-0074,EXP-2026-0074,PJ-0004,DS-0039,MDL-0008,EQ-0008,P-0020,running,2026-05-07T17:32:26,,,,,0.62
+EXP-0075,EXP-2026-0075,PJ-0005,DS-0003,MDL-0022,EQ-0018,P-0015,failed,2026-08-04T05:46:53,,2026-08-04T15:46:53,Numerical instability — loss became NaN at epoch 12,,0.96
+EXP-0076,EXP-2026-0076,PJ-0001,DS-0026,MDL-0035,EQ-0015,P-0023,running,2026-06-18T03:11:37,,,,,0.59
+EXP-0077,EXP-2026-0077,PJ-0005,DS-0015,MDL-0021,EQ-0019,P-0022,completed,2026-04-15T05:05:49,2026-04-15T13:05:49,,,"{""loss"": 0.1167, ""accuracy"": 0.894, ""notes"": ""synthetic experiment result""}",0.57
+EXP-0078,EXP-2026-0078,PJ-0002,DS-0047,MDL-0028,EQ-0004,P-0009,completed,2026-06-22T08:55:15,2026-06-24T23:55:15,,,"{""loss"": 0.0123, ""accuracy"": 0.86, ""notes"": ""synthetic experiment result""}",0.67
+EXP-0079,EXP-2026-0079,PJ-0004,DS-0031,MDL-0036,EQ-0002,P-0005,completed,2026-04-03T23:51:39,2026-04-06T06:51:39,,,"{""loss"": 0.297, ""accuracy"": 0.767, ""notes"": ""synthetic experiment result""}",0.93
+EXP-0080,EXP-2026-0080,PJ-0003,DS-0048,MDL-0001,EQ-0006,P-0025,running,2026-05-31T01:24:33,,,,,0.77
+EXP-0081,EXP-2026-0081,PJ-0005,DS-0005,MDL-0026,EQ-0016,P-0010,completed,2026-05-04T05:05:58,2026-05-05T03:05:58,,,"{""loss"": 0.3845, ""accuracy"": 0.836, ""notes"": ""synthetic experiment result""}",0.88
+EXP-0082,EXP-2026-0082,PJ-0008,DS-0037,MDL-0040,EQ-0001,P-0010,running,2026-08-14T05:55:54,,,,,0.54
+EXP-0083,EXP-2026-0083,PJ-0007,DS-0014,MDL-0012,EQ-0013,P-0014,completed,2026-03-02T07:49:50,2026-03-03T18:49:50,,,"{""loss"": 0.0913, ""accuracy"": 0.741, ""notes"": ""synthetic experiment result""}",0.95
+EXP-0084,EXP-2026-0084,PJ-0007,DS-0014,MDL-0012,EQ-0011,P-0012,running,2026-07-13T12:32:08,,,,,0.8
+EXP-0085,EXP-2026-0085,PJ-0004,DS-0031,MDL-0005,EQ-0010,P-0013,completed,2026-07-03T00:36:37,2026-07-07T23:36:37,,,"{""loss"": 0.1884, ""accuracy"": 0.846, ""notes"": ""synthetic experiment result""}",0.82
+EXP-0086,EXP-2026-0086,PJ-0005,DS-0003,MDL-0022,EQ-0005,P-0015,failed,2026-06-15T15:37:05,,2026-06-16T22:37:05,Equipment disconnected mid-run,,0.67
+EXP-0087,EXP-2026-0087,PJ-0004,DS-0031,MDL-0036,EQ-0020,P-0015,completed,2026-06-18T13:13:00,2026-06-19T05:13:00,,,"{""loss"": 0.2412, ""accuracy"": 0.853, ""notes"": ""synthetic experiment result""}",0.49
+EXP-0088,EXP-2026-0088,PJ-0001,DS-0026,MDL-0034,EQ-0006,P-0010,running,2026-06-03T22:06:12,,,,,0.83
+EXP-0089,EXP-2026-0089,PJ-0002,DS-0050,MDL-0030,EQ-0015,P-0005,completed,2026-07-30T15:19:29,2026-08-04T00:19:29,,,"{""loss"": 0.2358, ""accuracy"": 0.832, ""notes"": ""synthetic experiment result""}",0.75
+EXP-0090,EXP-2026-0090,PJ-0005,DS-0036,MDL-0009,EQ-0001,P-0015,completed,2026-06-14T02:00:16,2026-06-14T11:00:16,,,"{""loss"": 0.2645, ""accuracy"": 0.713, ""notes"": ""synthetic experiment result""}",0.82
+EXP-0091,EXP-2026-0091,PJ-0002,DS-0047,MDL-0028,EQ-0006,P-0017,completed,2026-06-04T06:29:03,2026-06-06T17:29:03,,,"{""loss"": 0.347, ""accuracy"": 0.984, ""notes"": ""synthetic experiment result""}",0.65
+EXP-0092,EXP-2026-0092,PJ-0007,DS-0014,MDL-0012,EQ-0018,P-0009,completed,2026-05-16T07:47:09,2026-05-19T04:47:09,,,"{""loss"": 0.2976, ""accuracy"": 0.801, ""notes"": ""synthetic experiment result""}",0.98
+EXP-0093,EXP-2026-0093,PJ-0003,DS-0048,MDL-0010,EQ-0010,P-0023,failed,2026-05-10T14:18:43,,2026-05-11T06:18:43,Experiment cancelled by researcher,,0.65
+EXP-0094,EXP-2026-0094,PJ-0006,DS-0028,MDL-0015,EQ-0004,P-0004,completed,2026-03-29T01:35:54,2026-03-29T15:35:54,,,"{""loss"": 0.3662, ""accuracy"": 0.822, ""notes"": ""synthetic experiment result""}",0.58
+EXP-0095,EXP-2026-0095,PJ-0001,DS-0025,MDL-0038,EQ-0002,P-0011,completed,2026-07-25T11:41:31,2026-07-30T03:41:31,,,"{""loss"": 0.3358, ""accuracy"": 0.817, ""notes"": ""synthetic experiment result""}",0.74
+EXP-0096,EXP-2026-0096,PJ-0001,DS-0026,MDL-0034,EQ-0008,P-0014,pending,,,,,,0.58
+EXP-0097,EXP-2026-0097,PJ-0003,DS-0048,MDL-0010,EQ-0002,P-0009,pending,,,,,,0.78
+EXP-0098,EXP-2026-0098,PJ-0007,DS-0014,MDL-0012,EQ-0013,P-0008,pending,,,,,,0.61
+EXP-0099,EXP-2026-0099,PJ-0003,DS-0048,MDL-0032,EQ-0010,P-0023,completed,2026-06-15T21:04:02,2026-06-18T22:04:02,,,"{""loss"": 0.3645, ""accuracy"": 0.965, ""notes"": ""synthetic experiment result""}",0.67
+EXP-0100,EXP-2026-0100,PJ-0003,DS-0006,MDL-0024,EQ-0011,P-0006,completed,2026-05-02T23:42:31,2026-05-03T07:42:31,,,"{""loss"": 0.4158, ""accuracy"": 0.946, ""notes"": ""synthetic experiment result""}",0.73
+EXP-0101,EXP-2026-0101,PJ-0005,DS-0005,MDL-0026,EQ-0002,P-0023,completed,2026-04-10T13:29:37,2026-04-15T06:29:37,,,"{""loss"": 0.0928, ""accuracy"": 0.921, ""notes"": ""synthetic experiment result""}",0.57
+EXP-0102,EXP-2026-0102,PJ-0006,DS-0002,MDL-0029,EQ-0007,P-0011,completed,2026-07-30T15:47:57,2026-07-31T19:47:57,,,"{""loss"": 0.3386, ""accuracy"": 0.919, ""notes"": ""synthetic experiment result""}",0.82
+EXP-0103,EXP-2026-0103,PJ-0007,DS-0014,MDL-0012,EQ-0010,P-0013,failed,2026-06-08T13:53:53,,2026-06-09T21:53:53,Experiment cancelled by researcher,,0.59
+EXP-0104,EXP-2026-0104,PJ-0002,DS-0047,MDL-0028,EQ-0007,P-0011,running,2026-03-25T03:35:24,,,,,0.84
+EXP-0105,EXP-2026-0105,PJ-0005,DS-0005,MDL-0037,EQ-0014,P-0016,running,2026-04-17T17:11:05,,,,,0.75
+EXP-0106,EXP-2026-0106,PJ-0008,DS-0016,MDL-0031,EQ-0011,P-0020,running,2026-07-21T06:57:58,,,,,0.69
+EXP-0107,EXP-2026-0107,PJ-0006,DS-0028,MDL-0015,EQ-0016,P-0005,completed,2026-08-25T22:20:33,2026-08-30T12:20:33,,,"{""loss"": 0.4134, ""accuracy"": 0.857, ""notes"": ""synthetic experiment result""}",0.73
+EXP-0108,EXP-2026-0108,PJ-0002,DS-0012,MDL-0007,,P-0008,completed,2026-06-28T04:53:10,2026-06-30T16:53:10,,,"{""loss"": 0.3807, ""accuracy"": 0.767, ""notes"": ""synthetic experiment result""}",0.45
+EXP-0109,EXP-2026-0109,PJ-0006,DS-0027,MDL-0014,EQ-0020,P-0023,failed,2026-03-18T07:13:46,,2026-03-18T09:13:46,Equipment disconnected mid-run,,0.74
+EXP-0110,EXP-2026-0110,PJ-0005,DS-0005,MDL-0037,,P-0007,failed,2026-06-10T19:48:47,,2026-06-11T05:48:47,Dataset loader timeout after 3 retries,,0.94
+EXP-0111,EXP-2026-0111,PJ-0004,DS-0039,MDL-0019,EQ-0012,P-0016,running,2026-04-17T05:25:51,,,,,0.69
+EXP-0112,EXP-2026-0112,PJ-0004,DS-0013,MDL-0011,EQ-0003,P-0023,completed,2026-07-02T15:27:40,2026-07-02T18:27:40,,,"{""loss"": 0.0511, ""accuracy"": 0.81, ""notes"": ""synthetic experiment result""}",0.7
+EXP-0113,EXP-2026-0113,PJ-0003,DS-0029,MDL-0002,EQ-0011,P-0022,pending,,,,,,0.94
+EXP-0114,EXP-2026-0114,PJ-0004,DS-0039,MDL-0008,EQ-0016,P-0012,running,2026-06-18T10:08:46,,,,,0.93
+EXP-0115,EXP-2026-0115,PJ-0001,DS-0026,MDL-0034,,P-0016,completed,2026-04-28T02:43:53,2026-04-29T00:43:53,,,"{""loss"": 0.2683, ""accuracy"": 0.918, ""notes"": ""synthetic experiment result""}",0.94
+EXP-0116,EXP-2026-0116,PJ-0004,DS-0039,MDL-0019,EQ-0018,P-0006,running,2026-05-07T03:49:19,,,,,0.72
+EXP-0117,EXP-2026-0117,PJ-0001,DS-0025,MDL-0017,EQ-0003,P-0016,running,2026-05-03T09:01:31,,,,,0.96
+EXP-0118,EXP-2026-0118,PJ-0001,DS-0026,MDL-0035,EQ-0012,P-0025,pending,,,,,,0.8
+EXP-0119,EXP-2026-0119,PJ-0002,DS-0050,MDL-0030,EQ-0003,P-0008,completed,2026-05-22T11:49:39,2026-05-24T11:49:39,,,"{""loss"": 0.1279, ""accuracy"": 0.81, ""notes"": ""synthetic experiment result""}",0.84
+EXP-0120,EXP-2026-0120,PJ-0002,DS-0012,MDL-0007,EQ-0015,P-0006,running,2026-06-17T03:45:47,,,,,0.55

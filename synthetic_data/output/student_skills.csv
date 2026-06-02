@@ -1,0 +1,109 @@
+skill_id,person_id,skill_name,proficiency_level,certified,last_used_date
+SKL-0001,P-0004,SHAP,expert,False,2025-12-09
+SKL-0002,P-0004,Grafana,beginner,False,2026-03-07
+SKL-0003,P-0004,Docker,expert,False,2026-05-16
+SKL-0004,P-0004,Causal Inference,intermediate,False,2025-08-14
+SKL-0005,P-0004,PyTorch,advanced,False,2025-12-06
+SKL-0006,P-0005,Python,beginner,False,2026-05-10
+SKL-0007,P-0005,Industrial IoT,intermediate,False,2026-03-10
+SKL-0008,P-0005,Digital Twin,expert,False,2026-04-24
+SKL-0009,P-0005,PyTorch,advanced,False,2025-08-02
+SKL-0010,P-0005,Process Mining,intermediate,False,2025-12-16
+SKL-0011,P-0006,MLflow,beginner,True,2025-10-31
+SKL-0012,P-0006,Docker,intermediate,True,2026-01-11
+SKL-0013,P-0006,Kubernetes,advanced,False,2025-12-26
+SKL-0014,P-0007,Docker,expert,False,2025-12-29
+SKL-0015,P-0007,TensorFlow,advanced,False,2026-01-03
+SKL-0016,P-0007,Anomaly Detection,beginner,True,2026-05-24
+SKL-0017,P-0008,Computer Vision,advanced,False,2026-05-22
+SKL-0018,P-0008,TensorFlow,beginner,True,2026-04-25
+SKL-0019,P-0008,Apache Kafka,intermediate,False,2026-01-14
+SKL-0020,P-0008,Grafana,intermediate,True,2025-12-23
+SKL-0021,P-0008,Digital Twin,intermediate,False,2025-11-04
+SKL-0022,P-0009,Causal Inference,intermediate,False,2026-05-18
+SKL-0023,P-0009,TensorFlow,expert,False,2026-01-18
+SKL-0024,P-0009,Scikit-learn,expert,False,2025-08-08
+SKL-0025,P-0009,MATLAB,advanced,True,2026-05-18
+SKL-0026,P-0009,ROS,advanced,False,2025-09-10
+SKL-0027,P-0010,Grafana,expert,False,2026-03-20
+SKL-0028,P-0010,Apache Kafka,intermediate,True,2025-06-12
+SKL-0029,P-0010,MATLAB,intermediate,True,2026-01-23
+SKL-0030,P-0011,Docker,expert,False,2026-01-06
+SKL-0031,P-0011,OWL/RDF,advanced,True,2025-07-16
+SKL-0032,P-0011,MATLAB,advanced,True,2026-03-18
+SKL-0033,P-0011,PyTorch,beginner,True,2026-02-25
+SKL-0034,P-0012,Anomaly Detection,intermediate,True,2025-10-15
+SKL-0035,P-0012,SHAP,advanced,False,2026-02-09
+SKL-0036,P-0012,SPARQL,expert,True,2026-01-07
+SKL-0037,P-0012,Time-series Analysis,intermediate,False,2025-09-19
+SKL-0038,P-0012,Scikit-learn,advanced,False,2026-05-13
+SKL-0039,P-0012,ROS,intermediate,False,2025-09-01
+SKL-0040,P-0013,PySpark,expert,True,2025-12-07
+SKL-0041,P-0013,Python,expert,True,2025-06-06
+SKL-0042,P-0013,Kubernetes,expert,True,2025-11-13
+SKL-0043,P-0013,Docker,expert,False,2025-09-17
+SKL-0044,P-0013,ROS,expert,False,2026-01-03
+SKL-0045,P-0013,Digital Twin,advanced,True,2025-07-19
+SKL-0046,P-0014,PyTorch,beginner,False,2026-02-14
+SKL-0047,P-0014,Anomaly Detection,expert,False,2025-12-20
+SKL-0048,P-0014,SQL,advanced,True,2026-03-14
+SKL-0049,P-0014,ROS,beginner,False,2025-08-31
+SKL-0050,P-0014,Time-series Analysis,advanced,True,2026-02-13
+SKL-0051,P-0014,Apache Kafka,expert,False,2026-01-26
+SKL-0052,P-0014,Process Mining,intermediate,True,2025-11-10
+SKL-0053,P-0015,Computer Vision,expert,False,2025-12-02
+SKL-0054,P-0015,Grafana,expert,False,2025-10-13
+SKL-0055,P-0015,PySpark,advanced,False,2025-11-08
+SKL-0056,P-0015,Docker,expert,True,2025-11-09
+SKL-0057,P-0015,Scikit-learn,expert,True,2026-03-12
+SKL-0058,P-0015,SQL,expert,True,2025-09-05
+SKL-0059,P-0015,PyTorch,intermediate,True,2025-09-26
+SKL-0060,P-0015,OWL/RDF,intermediate,True,2026-01-27
+SKL-0061,P-0016,MATLAB,expert,True,2026-01-13
+SKL-0062,P-0016,OWL/RDF,advanced,False,2026-03-15
+SKL-0063,P-0016,SHAP,expert,False,2026-02-08
+SKL-0064,P-0016,Grafana,beginner,False,2025-08-15
+SKL-0065,P-0016,Scikit-learn,beginner,False,2025-07-18
+SKL-0066,P-0017,Kubernetes,advanced,False,2026-05-06
+SKL-0067,P-0017,MATLAB,intermediate,False,2025-06-03
+SKL-0068,P-0017,Process Mining,intermediate,False,2025-07-10
+SKL-0069,P-0017,Computer Vision,intermediate,False,2026-05-13
+SKL-0070,P-0018,SQL,beginner,False,2025-12-09
+SKL-0071,P-0018,Python,beginner,False,2025-08-18
+SKL-0072,P-0018,Kubernetes,beginner,True,2026-01-22
+SKL-0073,P-0019,SPARQL,beginner,False,2026-04-15
+SKL-0074,P-0019,Time-series Analysis,expert,False,2026-03-19
+SKL-0075,P-0019,SHAP,intermediate,True,2025-06-25
+SKL-0076,P-0019,Industrial IoT,advanced,False,2025-06-29
+SKL-0077,P-0019,Docker,beginner,False,2026-04-05
+SKL-0078,P-0019,Digital Twin,expert,True,2025-12-22
+SKL-0079,P-0019,Python,advanced,True,2025-10-01
+SKL-0080,P-0019,SQL,expert,True,2025-06-11
+SKL-0081,P-0020,MATLAB,intermediate,True,2025-10-31
+SKL-0082,P-0020,MLflow,expert,False,2025-11-06
+SKL-0083,P-0020,Anomaly Detection,intermediate,False,2026-05-07
+SKL-0084,P-0020,Kubernetes,beginner,False,2026-02-18
+SKL-0085,P-0021,Time-series Analysis,expert,True,2026-01-03
+SKL-0086,P-0021,SHAP,advanced,False,2025-09-04
+SKL-0087,P-0021,MLflow,expert,False,2026-01-05
+SKL-0088,P-0021,Docker,beginner,True,2026-02-18
+SKL-0089,P-0022,SHAP,intermediate,False,2026-02-25
+SKL-0090,P-0022,SPARQL,beginner,False,2026-01-26
+SKL-0091,P-0022,ROS,expert,True,2026-01-31
+SKL-0092,P-0022,Industrial IoT,advanced,True,2025-08-05
+SKL-0093,P-0022,OWL/RDF,advanced,True,2026-02-23
+SKL-0094,P-0023,Kubernetes,beginner,False,2026-01-04
+SKL-0095,P-0023,Causal Inference,expert,True,2026-01-24
+SKL-0096,P-0023,PyTorch,advanced,False,2025-10-09
+SKL-0097,P-0023,NLP,beginner,False,2025-06-09
+SKL-0098,P-0023,TensorFlow,beginner,False,2026-05-05
+SKL-0099,P-0023,OWL/RDF,expert,True,2025-09-02
+SKL-0100,P-0024,PyTorch,expert,False,2026-01-17
+SKL-0101,P-0024,TensorFlow,advanced,False,2025-09-04
+SKL-0102,P-0024,Grafana,intermediate,True,2025-07-11
+SKL-0103,P-0024,Kubernetes,advanced,False,2025-07-25
+SKL-0104,P-0024,SQL,expert,False,2025-06-10
+SKL-0105,P-0024,Causal Inference,beginner,False,2025-07-30
+SKL-0106,P-0025,MATLAB,expert,False,2025-12-25
+SKL-0107,P-0025,Industrial IoT,expert,False,2026-04-13
+SKL-0108,P-0025,Time-series Analysis,advanced,False,2026-05-11

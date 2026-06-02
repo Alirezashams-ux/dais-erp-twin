@@ -1,0 +1,9 @@
+lecture_id,course_name,instructor_person_id,semester,year,lecture_type,enrolled_count,credits,language
+LEC-0001,Machine Learning,P-0001,Fall 2026,2026,graduate,12,3,Korean
+LEC-0002,Data Mining,P-0001,Spring 2026,2026,graduate,42,3,Korean
+LEC-0003,Industrial AI,P-0001,Fall 2026,2026,graduate,17,3,English
+LEC-0004,Artificial Intelligence,P-0001,Spring 2026,2026,undergraduate,14,3,Korean
+LEC-0005,Big Data Analysis,P-0001,Spring 2026,2026,undergraduate,16,3,English
+LEC-0006,Deep Learning for Engineers,P-0001,Spring 2026,2026,graduate,22,3,Korean
+LEC-0007,Digital Twin Fundamentals,P-0001,Fall 2026,2026,graduate,11,3,Korean
+LEC-0008,Pattern Recognition,P-0001,Fall 2026,2026,undergraduate,32,3,Korean

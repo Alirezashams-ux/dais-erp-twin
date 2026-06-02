@@ -1,0 +1,21 @@
+candidate_id,display_name,applying_for,research_interest,application_date,status,interviewer_person_id,gpa,undergraduate_institution
+CAND-0001,Candidate_001,PhD,Manufacturing AI,2026-04-17,screening,P-0001,3.66,UNIST
+CAND-0002,Candidate_002,MS,Causal ML,2026-03-18,offered,P-0001,3.64,Pusan National University
+CAND-0003,Candidate_003,MS,Machine Vision,2026-02-15,interview,P-0001,3.19,UNIST
+CAND-0004,Candidate_004,OpenLab,Anomaly Detection,2026-04-05,interview,P-0001,4.06,Pusan National University
+CAND-0005,Candidate_005,OpenLab,Industrial AI,2026-02-11,interview,P-0001,3.74,Ulsan University
+CAND-0006,Candidate_006,PhD,Machine Vision,2026-04-18,accepted,P-0001,3.47,Ulsan University
+CAND-0007,Candidate_007,MS,Time-series Analytics,2026-03-25,interview,P-0001,4.48,Ulsan University
+CAND-0008,Candidate_008,MS,Causal ML,2026-02-09,offered,P-0001,4.41,KAIST
+CAND-0009,Candidate_009,MS,Industrial AI,2026-04-28,offered,P-0001,4.01,Ulsan University
+CAND-0010,Candidate_010,PhD,Time-series Analytics,2026-04-26,accepted,P-0001,3.13,POSTECH
+CAND-0011,Candidate_011,PhD,Machine Vision,2026-04-30,rejected,P-0001,4.47,POSTECH
+CAND-0012,Candidate_012,MS,Digital Twin,2026-02-26,interview,P-0001,3.3,Ulsan University
+CAND-0013,Candidate_013,MS,Anomaly Detection,2026-05-19,offered,P-0001,4.09,KAIST
+CAND-0014,Candidate_014,OpenLab,Causal ML,2026-04-16,rejected,P-0001,3.41,Ulsan University
+CAND-0015,Candidate_015,PhD,Machine Vision,2026-04-27,rejected,P-0001,4.43,Ulsan University
+CAND-0016,Candidate_016,OpenLab,Digital Twin,2026-02-19,offered,P-0001,3.16,KAIST
+CAND-0017,Candidate_017,PhD,Machine Vision,2026-03-02,accepted,P-0001,4.41,UNIST
+CAND-0018,Candidate_018,MS,Manufacturing AI,2026-02-07,applied,P-0001,3.75,UNIST
+CAND-0019,Candidate_019,MS,Machine Vision,2026-04-19,accepted,P-0001,3.49,KAIST
+CAND-0020,Candidate_020,OpenLab,Time-series Analytics,2026-02-13,applied,P-0001,3.99,Pusan National University

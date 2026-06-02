@@ -1,0 +1,16 @@
+{
+  "people": 25,
+  "projects": 8,
+  "project_members": 44,
+  "equipment": 20,
+  "datasets": 50,
+  "model_assets": 40,
+  "experiments": 120,
+  "equipment_reservations": 62,
+  "purchase_requests": 80,
+  "invoices": 90,
+  "milestones": 40,
+  "publications": 30,
+  "erp_events": 388,
+  "agent_proposals": 32
+}

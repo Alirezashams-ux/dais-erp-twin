@@ -1,0 +1,31 @@
+activity_id,person_id,activity_type,project_id,description,date,mentor_person_id,hours_logged,outcome
+OL-0001,P-0023,Dataset collection,PJ-0008,Synthetic OpenLab activity 001 for System anomaly detection,2026-05-15,P-0001,33,in_progress
+OL-0002,P-0024,Paper review,PJ-0005,Synthetic OpenLab activity 002 for Semiconductor digital twin,2026-07-17,P-0001,36,completed
+OL-0003,P-0016,Literature review,PJ-0007,Synthetic OpenLab activity 003 for Machine vision,2026-06-07,P-0001,30,in_progress
+OL-0004,P-0022,Hardware setup,PJ-0008,Synthetic OpenLab activity 004 for System anomaly detection,2026-03-10,P-0001,4,completed
+OL-0005,P-0024,Prototype build,PJ-0005,Synthetic OpenLab activity 005 for Semiconductor digital twin,2026-07-04,P-0001,29,completed
+OL-0006,P-0020,Hardware setup,PJ-0007,Synthetic OpenLab activity 006 for Machine vision,2026-03-29,P-0001,38,cancelled
+OL-0007,P-0023,Hardware setup,PJ-0008,Synthetic OpenLab activity 007 for System anomaly detection,2026-07-22,P-0001,12,cancelled
+OL-0008,P-0016,Experiment support,PJ-0007,Synthetic OpenLab activity 008 for Machine vision,2026-07-05,P-0001,39,in_progress
+OL-0009,P-0025,Experiment support,PJ-0006,Synthetic OpenLab activity 009 for Process mining,2026-05-22,P-0001,5,completed
+OL-0010,P-0025,Prototype build,PJ-0001,Synthetic OpenLab activity 010 for BESS safety AI,2026-06-02,P-0001,24,cancelled
+OL-0011,P-0025,Paper review,PJ-0001,Synthetic OpenLab activity 011 for BESS safety AI,2026-06-06,P-0001,8,in_progress
+OL-0012,P-0021,ML tutorial,PJ-0006,Synthetic OpenLab activity 012 for Process mining,2026-05-29,P-0001,5,cancelled
+OL-0013,P-0019,Dataset collection,PJ-0004,Synthetic OpenLab activity 013 for Cyber-physical systems,2026-08-13,P-0001,21,cancelled
+OL-0014,P-0017,Experiment support,PJ-0002,Synthetic OpenLab activity 014 for Hydraulic quality monitoring,2026-03-30,P-0001,23,completed
+OL-0015,P-0016,Data labeling,PJ-0006,Synthetic OpenLab activity 015 for Process mining,2026-06-26,P-0001,29,cancelled
+OL-0016,P-0024,Experiment support,PJ-0007,Synthetic OpenLab activity 016 for Machine vision,2026-03-06,P-0001,32,cancelled
+OL-0017,P-0016,ML tutorial,PJ-0006,Synthetic OpenLab activity 017 for Process mining,2026-07-25,P-0001,26,in_progress
+OL-0018,P-0025,Hardware setup,PJ-0002,Synthetic OpenLab activity 018 for Hydraulic quality monitoring,2026-03-26,P-0001,15,in_progress
+OL-0019,P-0023,Prototype build,PJ-0006,Synthetic OpenLab activity 019 for Process mining,2026-08-05,P-0001,21,in_progress
+OL-0020,P-0022,Hardware setup,PJ-0004,Synthetic OpenLab activity 020 for Cyber-physical systems,2026-08-10,P-0001,6,cancelled
+OL-0021,P-0019,Experiment support,PJ-0005,Synthetic OpenLab activity 021 for Semiconductor digital twin,2026-03-13,P-0001,21,cancelled
+OL-0022,P-0022,Literature review,PJ-0004,Synthetic OpenLab activity 022 for Cyber-physical systems,2026-08-31,P-0001,39,completed
+OL-0023,P-0025,Experiment support,PJ-0006,Synthetic OpenLab activity 023 for Process mining,2026-03-18,P-0001,38,cancelled
+OL-0024,P-0023,Dataset collection,PJ-0007,Synthetic OpenLab activity 024 for Machine vision,2026-05-28,P-0001,6,cancelled
+OL-0025,P-0020,ML tutorial,PJ-0005,Synthetic OpenLab activity 025 for Semiconductor digital twin,2026-08-17,P-0001,36,in_progress
+OL-0026,P-0019,ML tutorial,PJ-0007,Synthetic OpenLab activity 026 for Machine vision,2026-05-04,P-0001,34,in_progress
+OL-0027,P-0024,Data labeling,PJ-0003,Synthetic OpenLab activity 027 for Welding inspection AI,2026-08-08,P-0001,35,completed
+OL-0028,P-0025,Dataset collection,PJ-0008,Synthetic OpenLab activity 028 for System anomaly detection,2026-08-17,P-0001,31,in_progress
+OL-0029,P-0024,Data labeling,PJ-0007,Synthetic OpenLab activity 029 for Machine vision,2026-07-12,P-0001,14,in_progress
+OL-0030,P-0023,Dataset collection,PJ-0003,Synthetic OpenLab activity 030 for Welding inspection AI,2026-04-08,P-0001,21,in_progress

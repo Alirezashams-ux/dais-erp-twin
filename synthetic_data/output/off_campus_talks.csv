@@ -1,0 +1,9 @@
+talk_id,speaker_person_id,title,venue,date,type,country
+TALK-0001,P-0001,Synthetic Talk 01: Industrial AI and Digital Twins for Smart Manufacturing,"KIIE Annual Conference, Seoul",2026-11-12,panel,Korea
+TALK-0002,P-0001,Synthetic Talk 02: Industrial AI and Digital Twins for Smart Manufacturing,"IEEE IEEM 2026, Macau",2026-11-14,invited_talk,International
+TALK-0003,P-0001,Synthetic Talk 03: Industrial AI and Digital Twins for Smart Manufacturing,"KSME Industrial AI Workshop, Busan",2026-04-20,invited_talk,Korea
+TALK-0004,P-0001,Synthetic Talk 04: Industrial AI and Digital Twins for Smart Manufacturing,"Samsung SDI R&D Forum, Ulsan",2026-11-26,panel,Korea
+TALK-0005,P-0001,Synthetic Talk 05: Industrial AI and Digital Twins for Smart Manufacturing,"POSCO Digital Transformation Summit, Pohang",2026-06-07,seminar,Korea
+TALK-0006,P-0001,Synthetic Talk 06: Industrial AI and Digital Twins for Smart Manufacturing,"Hyundai Heavy Industries AI Day, Ulsan",2026-05-27,invited_talk,Korea
+TALK-0007,P-0001,Synthetic Talk 07: Industrial AI and Digital Twins for Smart Manufacturing,"KSC 2026, Jeju",2026-04-20,panel,Korea
+TALK-0008,P-0001,Synthetic Talk 08: Industrial AI and Digital Twins for Smart Manufacturing,"AI Convergence Forum, Daejeon",2026-11-14,keynote,Korea

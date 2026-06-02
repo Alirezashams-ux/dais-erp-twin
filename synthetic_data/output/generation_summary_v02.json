@@ -1,0 +1,58 @@
+{
+  "version": "v0.2",
+  "generated_at": "2026-06-02T10:02:30+00:00",
+  "v01_entities": {
+    "people": 25,
+    "projects": 8,
+    "project_members": 44,
+    "equipment": 20,
+    "datasets": 50,
+    "model_assets": 40,
+    "experiments": 120,
+    "equipment_reservations": 62,
+    "purchase_requests": 80,
+    "invoices": 90,
+    "milestones": 40,
+    "publications": 30,
+    "erp_events": 388,
+    "agent_proposals": 35
+  },
+  "v02_entities": {
+    "workflow_events": 1055,
+    "role_permissions": 28,
+    "access_attempts": 70,
+    "approval_records": 175,
+    "audit_logs": 265,
+    "security_events": 26,
+    "prompt_history": 40,
+    "raw_file_manifest": 180,
+    "lectures": 8,
+    "off_campus_talks": 8,
+    "recruiting_pipeline": 20,
+    "openlab_activities": 30,
+    "achievements": 15,
+    "student_skills": 108,
+    "bess_sensor_logs": 120,
+    "welding_images": 80,
+    "hydraulic_sensor_logs": 100,
+    "semiconductor_sim_runs": 60,
+    "port_event_logs": 120,
+    "anomaly_records": 80
+  },
+  "injected_anomalies": {
+    "MISSING_DATASET_OWNER": 4,
+    "OUTDATED_DATASET_VERSION": 3,
+    "OVER_BUDGET_PURCHASE": 8,
+    "UNLINKED_INVOICE_NO_PR": 12,
+    "UNLINKED_INVOICE_NO_PROJECT": 13,
+    "INCOMPLETE_PUB_LINEAGE": 5,
+    "EQUIPMENT_DOUBLE_BOOKING": 2
+  },
+  "anomaly_severity_breakdown": {
+    "low": 0,
+    "medium": 34,
+    "high": 13
+  },
+  "total_anomalies": 47,
+  "total_output_files": 34
+}

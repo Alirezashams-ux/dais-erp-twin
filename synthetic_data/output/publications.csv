@@ -1,0 +1,31 @@
+publication_id,title,project_id,dataset_id,model_id,experiment_id,type,status,target_venue,year,reproducibility_package_status
+PUB-0001,Synthetic Paper 001: Process mining with AI-Based Analytics,PJ-0006,DS-0027,MDL-0039,EXP-0014,conference,draft,Synthetic Journal of Industrial AI,2026,complete
+PUB-0002,Synthetic Paper 002: Machine vision with AI-Based Analytics,PJ-0007,,,,conference,published,Synthetic IEEE Venue,2026,incomplete
+PUB-0003,Synthetic Paper 003: Hydraulic quality monitoring with AI-Based Analytics,PJ-0002,DS-0012,MDL-0007,EXP-0108,technical_report,published,Synthetic Journal of Industrial AI,2027,pending
+PUB-0004,Synthetic Paper 004: Machine vision with AI-Based Analytics,PJ-0007,DS-0014,MDL-0012,EXP-0007,conference,draft,Synthetic KIIE Conference,2027,complete
+PUB-0005,Synthetic Paper 005: Hydraulic quality monitoring with AI-Based Analytics,PJ-0002,DS-0047,MDL-0028,EXP-0063,journal,idea,Synthetic KIIE Conference,2027,complete
+PUB-0006,Synthetic Paper 006: Cyber-physical systems with AI-Based Analytics,PJ-0004,DS-0031,MDL-0005,EXP-0085,journal,published,Synthetic Journal of Industrial AI,2027,pending
+PUB-0007,Synthetic Paper 007: Cyber-physical systems with AI-Based Analytics,PJ-0004,DS-0039,MDL-0033,EXP-0037,journal,draft,Synthetic KIIE Conference,2027,complete
+PUB-0008,Synthetic Paper 008: Machine vision with AI-Based Analytics,PJ-0007,DS-0014,MDL-0012,EXP-0092,technical_report,accepted,Synthetic Journal of Industrial AI,2027,pending
+PUB-0009,Synthetic Paper 009: System anomaly detection with AI-Based Analytics,PJ-0008,DS-0033,MDL-0004,EXP-0050,conference,submitted,Synthetic KIIE Conference,2027,pending
+PUB-0010,Synthetic Paper 010: Machine vision with AI-Based Analytics,PJ-0007,,,,journal,accepted,Synthetic IEEE Venue,2026,incomplete
+PUB-0011,Synthetic Paper 011: Hydraulic quality monitoring with AI-Based Analytics,PJ-0002,DS-0050,MDL-0013,EXP-0052,technical_report,published,Synthetic IEEE Venue,2026,complete
+PUB-0012,Synthetic Paper 012: Machine vision with AI-Based Analytics,PJ-0007,DS-0014,MDL-0012,EXP-0009,conference,published,Synthetic KIIE Conference,2026,complete
+PUB-0013,Synthetic Paper 013: Semiconductor digital twin with AI-Based Analytics,PJ-0005,,,,journal,accepted,Synthetic KIIE Conference,2027,incomplete
+PUB-0014,Synthetic Paper 014: BESS safety AI with AI-Based Analytics,PJ-0001,DS-0026,MDL-0034,EXP-0115,journal,published,Synthetic KIIE Conference,2026,complete
+PUB-0015,Synthetic Paper 015: Cyber-physical systems with AI-Based Analytics,PJ-0004,DS-0039,MDL-0019,EXP-0013,conference,draft,Synthetic IEEE Venue,2026,complete
+PUB-0016,Synthetic Paper 016: Hydraulic quality monitoring with AI-Based Analytics,PJ-0002,DS-0030,MDL-0025,EXP-0043,conference,accepted,Synthetic IEEE Venue,2026,pending
+PUB-0017,Synthetic Paper 017: BESS safety AI with AI-Based Analytics,PJ-0001,DS-0025,MDL-0017,EXP-0046,technical_report,published,Synthetic IEEE Venue,2027,complete
+PUB-0018,Synthetic Paper 018: Semiconductor digital twin with AI-Based Analytics,PJ-0005,DS-0015,MDL-0021,EXP-0077,conference,accepted,Synthetic IEEE Venue,2026,complete
+PUB-0019,Synthetic Paper 019: Welding inspection AI with AI-Based Analytics,PJ-0003,DS-0006,MDL-0024,EXP-0055,technical_report,submitted,Synthetic KIIE Conference,2026,pending
+PUB-0020,Synthetic Paper 020: Semiconductor digital twin with AI-Based Analytics,PJ-0005,DS-0005,MDL-0037,EXP-0110,conference,accepted,Synthetic IEEE Venue,2027,complete
+PUB-0021,Synthetic Paper 021: Process mining with AI-Based Analytics,PJ-0006,DS-0027,MDL-0039,EXP-0048,journal,accepted,Synthetic Journal of Industrial AI,2027,complete
+PUB-0022,Synthetic Paper 022: Machine vision with AI-Based Analytics,PJ-0007,DS-0014,MDL-0012,EXP-0098,conference,accepted,Synthetic KIIE Conference,2026,pending
+PUB-0023,Synthetic Paper 023: Semiconductor digital twin with AI-Based Analytics,PJ-0005,,,,technical_report,submitted,Synthetic Journal of Industrial AI,2026,incomplete
+PUB-0024,Synthetic Paper 024: System anomaly detection with AI-Based Analytics,PJ-0008,DS-0033,MDL-0023,EXP-0064,technical_report,submitted,Synthetic Journal of Industrial AI,2026,complete
+PUB-0025,Synthetic Paper 025: Cyber-physical systems with AI-Based Analytics,PJ-0004,DS-0039,MDL-0008,EXP-0074,journal,draft,Synthetic Journal of Industrial AI,2026,pending
+PUB-0026,Synthetic Paper 026: Process mining with AI-Based Analytics,PJ-0006,,,,journal,accepted,Synthetic IEEE Venue,2026,incomplete
+PUB-0027,Synthetic Paper 027: BESS safety AI with AI-Based Analytics,PJ-0001,DS-0025,MDL-0038,EXP-0070,conference,published,Synthetic KIIE Conference,2027,complete
+PUB-0028,Synthetic Paper 028: Semiconductor digital twin with AI-Based Analytics,PJ-0005,DS-0005,MDL-0026,EXP-0045,journal,idea,Synthetic IEEE Venue,2027,complete
+PUB-0029,Synthetic Paper 029: BESS safety AI with AI-Based Analytics,PJ-0001,DS-0026,MDL-0035,EXP-0076,journal,accepted,Synthetic Journal of Industrial AI,2027,complete
+PUB-0030,Synthetic Paper 030: BESS safety AI with AI-Based Analytics,PJ-0001,DS-0025,MDL-0017,EXP-0046,journal,submitted,Synthetic KIIE Conference,2027,complete

@@ -1,0 +1,176 @@
+approval_id,entity_type,entity_id,action,actor_person_id,actor_role,decision,decision_reason,timestamp
+APR-0001,PurchaseRequest,PR-0001,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-05-28T00:00:00
+APR-0002,PurchaseRequest,PR-0001,ProfessorApproval,P-0001,Professor,rejected,Budget check: ok,2026-05-30T00:00:00
+APR-0003,PurchaseRequest,PR-0002,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-06-28T00:00:00
+APR-0004,PurchaseRequest,PR-0002,ProfessorApproval,P-0001,Professor,approved,Budget check: ok,2026-06-30T00:00:00
+APR-0005,PurchaseRequest,PR-0003,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-04-28T00:00:00
+APR-0006,PurchaseRequest,PR-0003,ProfessorApproval,P-0001,Professor,pending,Budget check: ok,2026-04-30T00:00:00
+APR-0007,PurchaseRequest,PR-0004,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-05-24T00:00:00
+APR-0008,PurchaseRequest,PR-0004,ProfessorApproval,P-0001,Professor,rejected,Budget check: over_budget,2026-05-26T00:00:00
+APR-0009,PurchaseRequest,PR-0005,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-07-04T00:00:00
+APR-0010,PurchaseRequest,PR-0005,ProfessorApproval,P-0001,Professor,pending,Budget check: ok,2026-07-06T00:00:00
+APR-0011,PurchaseRequest,PR-0006,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-09-10T00:00:00
+APR-0012,PurchaseRequest,PR-0006,ProfessorApproval,P-0001,Professor,rejected,Budget check: ok,2026-09-12T00:00:00
+APR-0013,PurchaseRequest,PR-0007,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-04-03T00:00:00
+APR-0014,PurchaseRequest,PR-0007,ProfessorApproval,P-0001,Professor,pending,Budget check: ok,2026-04-05T00:00:00
+APR-0015,PurchaseRequest,PR-0008,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-04-05T00:00:00
+APR-0016,PurchaseRequest,PR-0008,ProfessorApproval,P-0001,Professor,rejected,Budget check: ok,2026-04-07T00:00:00
+APR-0017,PurchaseRequest,PR-0009,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-04-21T00:00:00
+APR-0018,PurchaseRequest,PR-0009,ProfessorApproval,P-0001,Professor,rejected,Budget check: ok,2026-04-23T00:00:00
+APR-0019,PurchaseRequest,PR-0011,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-09-06T00:00:00
+APR-0020,PurchaseRequest,PR-0011,ProfessorApproval,P-0001,Professor,pending,Budget check: ok,2026-09-08T00:00:00
+APR-0021,PurchaseRequest,PR-0012,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-05-28T00:00:00
+APR-0022,PurchaseRequest,PR-0012,ProfessorApproval,P-0001,Professor,rejected,Budget check: ok,2026-05-30T00:00:00
+APR-0023,PurchaseRequest,PR-0013,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-07-01T00:00:00
+APR-0024,PurchaseRequest,PR-0013,ProfessorApproval,P-0001,Professor,rejected,Budget check: ok,2026-07-03T00:00:00
+APR-0025,PurchaseRequest,PR-0014,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-06-05T00:00:00
+APR-0026,PurchaseRequest,PR-0014,ProfessorApproval,P-0001,Professor,pending,Budget check: ok,2026-06-07T00:00:00
+APR-0027,PurchaseRequest,PR-0015,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-08-13T00:00:00
+APR-0028,PurchaseRequest,PR-0015,ProfessorApproval,P-0001,Professor,approved,Budget check: ok,2026-08-15T00:00:00
+APR-0029,PurchaseRequest,PR-0016,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-07-10T00:00:00
+APR-0030,PurchaseRequest,PR-0016,ProfessorApproval,P-0001,Professor,rejected,Budget check: ok,2026-07-12T00:00:00
+APR-0031,PurchaseRequest,PR-0017,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-07-04T00:00:00
+APR-0032,PurchaseRequest,PR-0017,ProfessorApproval,P-0001,Professor,pending,Budget check: ok,2026-07-06T00:00:00
+APR-0033,PurchaseRequest,PR-0018,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-08-01T00:00:00
+APR-0034,PurchaseRequest,PR-0018,ProfessorApproval,P-0001,Professor,approved,Budget check: ok,2026-08-03T00:00:00
+APR-0035,PurchaseRequest,PR-0019,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-04-18T00:00:00
+APR-0036,PurchaseRequest,PR-0019,ProfessorApproval,P-0001,Professor,pending,Budget check: over_budget,2026-04-20T00:00:00
+APR-0037,PurchaseRequest,PR-0020,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-07-14T00:00:00
+APR-0038,PurchaseRequest,PR-0020,ProfessorApproval,P-0001,Professor,rejected,Budget check: ok,2026-07-16T00:00:00
+APR-0039,PurchaseRequest,PR-0021,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-06-21T00:00:00
+APR-0040,PurchaseRequest,PR-0021,ProfessorApproval,P-0001,Professor,pending,Budget check: ok,2026-06-23T00:00:00
+APR-0041,PurchaseRequest,PR-0022,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-07-12T00:00:00
+APR-0042,PurchaseRequest,PR-0022,ProfessorApproval,P-0001,Professor,approved,Budget check: ok,2026-07-14T00:00:00
+APR-0043,PurchaseRequest,PR-0023,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-04-25T00:00:00
+APR-0044,PurchaseRequest,PR-0023,ProfessorApproval,P-0001,Professor,approved,Budget check: ok,2026-04-27T00:00:00
+APR-0045,PurchaseRequest,PR-0024,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-05-03T00:00:00
+APR-0046,PurchaseRequest,PR-0024,ProfessorApproval,P-0001,Professor,approved,Budget check: ok,2026-05-05T00:00:00
+APR-0047,PurchaseRequest,PR-0025,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-06-30T00:00:00
+APR-0048,PurchaseRequest,PR-0025,ProfessorApproval,P-0001,Professor,rejected,Budget check: ok,2026-07-02T00:00:00
+APR-0049,PurchaseRequest,PR-0026,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-06-27T00:00:00
+APR-0050,PurchaseRequest,PR-0026,ProfessorApproval,P-0001,Professor,pending,Budget check: ok,2026-06-29T00:00:00
+APR-0051,PurchaseRequest,PR-0030,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-07-10T00:00:00
+APR-0052,PurchaseRequest,PR-0030,ProfessorApproval,P-0001,Professor,approved,Budget check: over_budget,2026-07-12T00:00:00
+APR-0053,PurchaseRequest,PR-0032,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-05-03T00:00:00
+APR-0054,PurchaseRequest,PR-0032,ProfessorApproval,P-0001,Professor,approved,Budget check: ok,2026-05-05T00:00:00
+APR-0055,PurchaseRequest,PR-0033,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-07-31T00:00:00
+APR-0056,PurchaseRequest,PR-0033,ProfessorApproval,P-0001,Professor,pending,Budget check: ok,2026-08-02T00:00:00
+APR-0057,PurchaseRequest,PR-0034,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-04-05T00:00:00
+APR-0058,PurchaseRequest,PR-0034,ProfessorApproval,P-0001,Professor,rejected,Budget check: ok,2026-04-07T00:00:00
+APR-0059,PurchaseRequest,PR-0035,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-07-30T00:00:00
+APR-0060,PurchaseRequest,PR-0035,ProfessorApproval,P-0001,Professor,approved,Budget check: ok,2026-08-01T00:00:00
+APR-0061,PurchaseRequest,PR-0036,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-05-11T00:00:00
+APR-0062,PurchaseRequest,PR-0036,ProfessorApproval,P-0001,Professor,approved,Budget check: ok,2026-05-13T00:00:00
+APR-0063,PurchaseRequest,PR-0038,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-08-16T00:00:00
+APR-0064,PurchaseRequest,PR-0038,ProfessorApproval,P-0001,Professor,approved,Budget check: over_budget,2026-08-18T00:00:00
+APR-0065,PurchaseRequest,PR-0040,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-04-24T00:00:00
+APR-0066,PurchaseRequest,PR-0040,ProfessorApproval,P-0001,Professor,rejected,Budget check: ok,2026-04-26T00:00:00
+APR-0067,PurchaseRequest,PR-0041,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-07-23T00:00:00
+APR-0068,PurchaseRequest,PR-0041,ProfessorApproval,P-0001,Professor,pending,Budget check: ok,2026-07-25T00:00:00
+APR-0069,PurchaseRequest,PR-0042,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-06-23T00:00:00
+APR-0070,PurchaseRequest,PR-0042,ProfessorApproval,P-0001,Professor,approved,Budget check: ok,2026-06-25T00:00:00
+APR-0071,PurchaseRequest,PR-0044,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-08-18T00:00:00
+APR-0072,PurchaseRequest,PR-0044,ProfessorApproval,P-0001,Professor,pending,Budget check: ok,2026-08-20T00:00:00
+APR-0073,PurchaseRequest,PR-0045,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-06-09T00:00:00
+APR-0074,PurchaseRequest,PR-0045,ProfessorApproval,P-0001,Professor,rejected,Budget check: ok,2026-06-11T00:00:00
+APR-0075,PurchaseRequest,PR-0046,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-05-28T00:00:00
+APR-0076,PurchaseRequest,PR-0046,ProfessorApproval,P-0001,Professor,pending,Budget check: ok,2026-05-30T00:00:00
+APR-0077,PurchaseRequest,PR-0047,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-06-18T00:00:00
+APR-0078,PurchaseRequest,PR-0047,ProfessorApproval,P-0001,Professor,pending,Budget check: ok,2026-06-20T00:00:00
+APR-0079,PurchaseRequest,PR-0048,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-08-23T00:00:00
+APR-0080,PurchaseRequest,PR-0048,ProfessorApproval,P-0001,Professor,rejected,Budget check: ok,2026-08-25T00:00:00
+APR-0081,PurchaseRequest,PR-0050,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-04-22T00:00:00
+APR-0082,PurchaseRequest,PR-0050,ProfessorApproval,P-0001,Professor,approved,Budget check: ok,2026-04-24T00:00:00
+APR-0083,PurchaseRequest,PR-0051,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-06-26T00:00:00
+APR-0084,PurchaseRequest,PR-0051,ProfessorApproval,P-0001,Professor,pending,Budget check: ok,2026-06-28T00:00:00
+APR-0085,PurchaseRequest,PR-0052,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-07-13T00:00:00
+APR-0086,PurchaseRequest,PR-0052,ProfessorApproval,P-0001,Professor,rejected,Budget check: over_budget,2026-07-15T00:00:00
+APR-0087,PurchaseRequest,PR-0053,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-05-20T00:00:00
+APR-0088,PurchaseRequest,PR-0053,ProfessorApproval,P-0001,Professor,approved,Budget check: over_budget,2026-05-22T00:00:00
+APR-0089,PurchaseRequest,PR-0054,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-06-17T00:00:00
+APR-0090,PurchaseRequest,PR-0054,ProfessorApproval,P-0001,Professor,approved,Budget check: ok,2026-06-19T00:00:00
+APR-0091,PurchaseRequest,PR-0055,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-06-13T00:00:00
+APR-0092,PurchaseRequest,PR-0055,ProfessorApproval,P-0001,Professor,pending,Budget check: ok,2026-06-15T00:00:00
+APR-0093,PurchaseRequest,PR-0056,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-07-09T00:00:00
+APR-0094,PurchaseRequest,PR-0056,ProfessorApproval,P-0001,Professor,pending,Budget check: ok,2026-07-11T00:00:00
+APR-0095,PurchaseRequest,PR-0057,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-07-11T00:00:00
+APR-0096,PurchaseRequest,PR-0057,ProfessorApproval,P-0001,Professor,approved,Budget check: ok,2026-07-13T00:00:00
+APR-0097,PurchaseRequest,PR-0058,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-04-17T00:00:00
+APR-0098,PurchaseRequest,PR-0058,ProfessorApproval,P-0001,Professor,approved,Budget check: ok,2026-04-19T00:00:00
+APR-0099,PurchaseRequest,PR-0059,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-06-05T00:00:00
+APR-0100,PurchaseRequest,PR-0059,ProfessorApproval,P-0001,Professor,pending,Budget check: ok,2026-06-07T00:00:00
+APR-0101,PurchaseRequest,PR-0061,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-07-02T00:00:00
+APR-0102,PurchaseRequest,PR-0061,ProfessorApproval,P-0001,Professor,pending,Budget check: ok,2026-07-04T00:00:00
+APR-0103,PurchaseRequest,PR-0062,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-05-17T00:00:00
+APR-0104,PurchaseRequest,PR-0062,ProfessorApproval,P-0001,Professor,approved,Budget check: ok,2026-05-19T00:00:00
+APR-0105,PurchaseRequest,PR-0063,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-04-03T00:00:00
+APR-0106,PurchaseRequest,PR-0063,ProfessorApproval,P-0001,Professor,rejected,Budget check: over_budget,2026-04-05T00:00:00
+APR-0107,PurchaseRequest,PR-0064,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-06-24T00:00:00
+APR-0108,PurchaseRequest,PR-0064,ProfessorApproval,P-0001,Professor,approved,Budget check: ok,2026-06-26T00:00:00
+APR-0109,PurchaseRequest,PR-0065,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-04-21T00:00:00
+APR-0110,PurchaseRequest,PR-0065,ProfessorApproval,P-0001,Professor,approved,Budget check: over_budget,2026-04-23T00:00:00
+APR-0111,PurchaseRequest,PR-0066,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-06-28T00:00:00
+APR-0112,PurchaseRequest,PR-0066,ProfessorApproval,P-0001,Professor,pending,Budget check: ok,2026-06-30T00:00:00
+APR-0113,PurchaseRequest,PR-0067,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-05-17T00:00:00
+APR-0114,PurchaseRequest,PR-0067,ProfessorApproval,P-0001,Professor,approved,Budget check: ok,2026-05-19T00:00:00
+APR-0115,PurchaseRequest,PR-0068,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-06-17T00:00:00
+APR-0116,PurchaseRequest,PR-0068,ProfessorApproval,P-0001,Professor,approved,Budget check: ok,2026-06-19T00:00:00
+APR-0117,PurchaseRequest,PR-0070,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-08-08T00:00:00
+APR-0118,PurchaseRequest,PR-0070,ProfessorApproval,P-0001,Professor,pending,Budget check: ok,2026-08-10T00:00:00
+APR-0119,PurchaseRequest,PR-0072,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-06-09T00:00:00
+APR-0120,PurchaseRequest,PR-0072,ProfessorApproval,P-0001,Professor,pending,Budget check: ok,2026-06-11T00:00:00
+APR-0121,PurchaseRequest,PR-0074,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-07-08T00:00:00
+APR-0122,PurchaseRequest,PR-0074,ProfessorApproval,P-0001,Professor,rejected,Budget check: ok,2026-07-10T00:00:00
+APR-0123,PurchaseRequest,PR-0077,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-08-21T00:00:00
+APR-0124,PurchaseRequest,PR-0077,ProfessorApproval,P-0001,Professor,pending,Budget check: ok,2026-08-23T00:00:00
+APR-0125,PurchaseRequest,PR-0078,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-05-15T00:00:00
+APR-0126,PurchaseRequest,PR-0078,ProfessorApproval,P-0001,Professor,rejected,Budget check: ok,2026-05-17T00:00:00
+APR-0127,PurchaseRequest,PR-0080,AdminReview,P-0002,Admin,forwarded,"Amount ≥ ₩1,000,000 — requires professor sign-off",2026-07-12T00:00:00
+APR-0128,PurchaseRequest,PR-0080,ProfessorApproval,P-0001,Professor,pending,Budget check: ok,2026-07-14T00:00:00
+APR-0129,Dataset,DS-0001,DatasetApproval,P-0001,Professor,approved,Quality score 0.93 acceptable for training,2026-04-15T00:00:00
+APR-0130,Dataset,DS-0002,DatasetApproval,P-0001,Professor,approved,Quality score 0.95 acceptable for training,2026-04-20T00:00:00
+APR-0131,Dataset,DS-0003,DatasetApproval,P-0001,Professor,approved,Quality score 0.86 acceptable for training,2026-04-06T00:00:00
+APR-0132,Dataset,DS-0004,DatasetApproval,P-0001,Professor,approved,Quality score 0.69 acceptable for training,2026-04-27T00:00:00
+APR-0133,Dataset,DS-0005,DatasetApproval,P-0001,Professor,approved,Quality score 0.78 acceptable for training,2026-04-19T00:00:00
+APR-0134,Dataset,DS-0006,DatasetApproval,P-0001,Professor,approved,Quality score 0.84 acceptable for training,2026-04-03T00:00:00
+APR-0135,Dataset,DS-0007,DatasetApproval,P-0001,Professor,approved,Quality score 0.87 acceptable for training,2026-04-27T00:00:00
+APR-0136,Dataset,DS-0008,DatasetApproval,P-0001,Professor,approved,Quality score 0.92 acceptable for training,2026-04-27T00:00:00
+APR-0137,Dataset,DS-0009,DatasetApproval,P-0001,Professor,approved,Quality score 0.72 acceptable for training,2026-04-04T00:00:00
+APR-0138,Dataset,DS-0010,DatasetApproval,P-0001,Professor,approved,Quality score 0.6 acceptable for training,2026-04-04T00:00:00
+APR-0139,Dataset,DS-0014,DatasetApproval,P-0001,Professor,approved,Quality score 0.84 acceptable for training,2026-04-16T00:00:00
+APR-0140,Dataset,DS-0015,DatasetApproval,P-0001,Professor,approved,Quality score 0.81 acceptable for training,2026-04-20T00:00:00
+APR-0141,Dataset,DS-0017,DatasetApproval,P-0001,Professor,approved,Quality score 0.66 acceptable for training,2026-04-26T00:00:00
+APR-0142,Dataset,DS-0018,DatasetApproval,P-0001,Professor,approved,Quality score 0.93 acceptable for training,2026-04-20T00:00:00
+APR-0143,Dataset,DS-0020,DatasetApproval,P-0001,Professor,approved,Quality score 0.74 acceptable for training,2026-04-08T00:00:00
+APR-0144,Dataset,DS-0021,DatasetApproval,P-0001,Professor,approved,Quality score 0.65 acceptable for training,2026-04-03T00:00:00
+APR-0145,Dataset,DS-0022,DatasetApproval,P-0001,Professor,approved,Quality score 0.85 acceptable for training,2026-04-26T00:00:00
+APR-0146,Dataset,DS-0023,DatasetApproval,P-0001,Professor,approved,Quality score 0.96 acceptable for training,2026-04-07T00:00:00
+APR-0147,Dataset,DS-0024,DatasetApproval,P-0001,Professor,approved,Quality score 0.67 acceptable for training,2026-04-14T00:00:00
+APR-0148,Dataset,DS-0026,DatasetApproval,P-0001,Professor,approved,Quality score 0.69 acceptable for training,2026-04-11T00:00:00
+APR-0149,Dataset,DS-0027,DatasetApproval,P-0001,Professor,approved,Quality score 0.87 acceptable for training,2026-04-26T00:00:00
+APR-0150,Dataset,DS-0028,DatasetApproval,P-0001,Professor,approved,Quality score 0.82 acceptable for training,2026-04-27T00:00:00
+APR-0151,Dataset,DS-0031,DatasetApproval,P-0001,Professor,approved,Quality score 0.89 acceptable for training,2026-04-24T00:00:00
+APR-0152,Dataset,DS-0032,DatasetApproval,P-0001,Professor,approved,Quality score 0.6 acceptable for training,2026-04-22T00:00:00
+APR-0153,Dataset,DS-0038,DatasetApproval,P-0001,Professor,approved,Quality score 0.67 acceptable for training,2026-04-13T00:00:00
+APR-0154,Dataset,DS-0040,DatasetApproval,P-0001,Professor,approved,Quality score 0.85 acceptable for training,2026-04-11T00:00:00
+APR-0155,Dataset,DS-0041,DatasetApproval,P-0001,Professor,approved,Quality score 0.59 acceptable for training,2026-04-04T00:00:00
+APR-0156,Dataset,DS-0042,DatasetApproval,P-0001,Professor,approved,Quality score 0.6 acceptable for training,2026-04-22T00:00:00
+APR-0157,Dataset,DS-0043,DatasetApproval,P-0001,Professor,approved,Quality score 0.79 acceptable for training,2026-04-19T00:00:00
+APR-0158,Dataset,DS-0045,DatasetApproval,P-0001,Professor,approved,Quality score 0.79 acceptable for training,2026-04-18T00:00:00
+APR-0159,Dataset,DS-0046,DatasetApproval,P-0001,Professor,approved,Quality score 0.85 acceptable for training,2026-04-05T00:00:00
+APR-0160,Dataset,DS-0047,DatasetApproval,P-0001,Professor,approved,Quality score 0.83 acceptable for training,2026-04-11T00:00:00
+APR-0161,Dataset,DS-0049,DatasetApproval,P-0001,Professor,approved,Quality score 0.81 acceptable for training,2026-04-27T00:00:00
+APR-0162,Dataset,DS-0050,DatasetApproval,P-0001,Professor,approved,Quality score 0.83 acceptable for training,2026-04-26T00:00:00
+APR-0163,AgentProposal,AP-0018,ProposalReview,P-0001,Professor,approved,"Risk=high, Confidence=0.88",2026-06-04T10:02:30
+APR-0164,AgentProposal,AP-0019,ProposalReview,P-0001,Professor,approved,"Risk=high, Confidence=0.88",2026-06-04T10:02:30
+APR-0165,AgentProposal,AP-0020,ProposalReview,P-0001,Professor,rejected,"Risk=high, Confidence=0.88",2026-06-04T10:02:30
+APR-0166,AgentProposal,AP-0021,ProposalReview,P-0001,Professor,approved,"Risk=high, Confidence=0.95",2026-06-04T10:02:30
+APR-0167,AgentProposal,AP-0022,ProposalReview,P-0001,Professor,approved,"Risk=high, Confidence=0.95",2026-06-04T10:02:30
+APR-0168,AgentProposal,AP-0023,ProposalReview,P-0001,Professor,approved,"Risk=high, Confidence=0.95",2026-06-04T10:02:30
+APR-0169,AgentProposal,AP-0024,ProposalReview,P-0001,Professor,approved,"Risk=high, Confidence=0.95",2026-06-04T10:02:30
+APR-0170,AgentProposal,AP-0025,ProposalReview,P-0001,Professor,approved,"Risk=high, Confidence=0.95",2026-06-04T10:02:30
+APR-0171,AgentProposal,AP-0026,ProposalReview,P-0001,Professor,approved,"Risk=high, Confidence=0.95",2026-06-04T10:02:30
+APR-0172,AgentProposal,AP-0027,ProposalReview,P-0001,Professor,approved,"Risk=high, Confidence=0.95",2026-06-04T10:02:30
+APR-0173,AgentProposal,AP-0028,ProposalReview,P-0001,Professor,approved,"Risk=high, Confidence=0.95",2026-06-04T10:02:30
+APR-0174,AgentProposal,AP-0034,ProposalReview,P-0001,Professor,rejected,"Risk=high, Confidence=0.96",2026-06-04T10:02:30
+APR-0175,AgentProposal,AP-0035,ProposalReview,P-0001,Professor,approved,"Risk=high, Confidence=0.96",2026-06-04T10:02:30

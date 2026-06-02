@@ -1,0 +1,16 @@
+achievement_id,person_id,achievement_type,title,date,venue,monetary_value_krw
+ACH-0001,P-0016,Research Excellence Award,Synthetic Achievement 01,2025-03-07,IEEE IEEM 2025,1000000
+ACH-0002,P-0011,Research Excellence Award,Synthetic Achievement 02,2025-06-14,KSME 2026,5000000
+ACH-0003,P-0010,NRF Fellowship,Synthetic Achievement 03,2025-09-02,KIIE 2025,0
+ACH-0004,P-0009,Best Paper Award,Synthetic Achievement 04,2025-09-09,KSME 2026,1000000
+ACH-0005,P-0019,Industry Collaboration Award,Synthetic Achievement 05,2026-03-23,NRF Grant Panel 2026,0
+ACH-0006,P-0009,Outstanding Reviewer,Synthetic Achievement 06,2025-10-07,IEEE IEEM 2025,0
+ACH-0007,P-0011,Research Excellence Award,Synthetic Achievement 07,2025-06-30,KIIE 2025,1000000
+ACH-0008,P-0001,Best Paper Award,Synthetic Achievement 08,2025-03-27,KSME 2026,5000000
+ACH-0009,P-0012,Best Paper Award,Synthetic Achievement 09,2026-02-21,KSME 2026,0
+ACH-0010,P-0015,Top Poster Award,Synthetic Achievement 10,2025-05-24,IEEE IEEM 2025,0
+ACH-0011,P-0023,Top Poster Award,Synthetic Achievement 11,2026-05-28,KIIE 2025,5000000
+ACH-0012,P-0023,Industry Collaboration Award,Synthetic Achievement 12,2025-09-15,NRF Grant Panel 2026,0
+ACH-0013,P-0010,Industry Collaboration Award,Synthetic Achievement 13,2025-05-06,KSME 2026,500000
+ACH-0014,P-0023,Top Poster Award,Synthetic Achievement 14,2026-02-04,IEEE IEEM 2025,1000000
+ACH-0015,P-0009,Outstanding Reviewer,Synthetic Achievement 15,2025-04-20,IEEE IEEM 2025,0

@@ -1,0 +1,21 @@
+equipment_id,asset_code,name,category,location,status,utilization_rate,maintenance_due_date
+EQ-0001,ASSET-INSPECTION-RIG-001,Inspection Rig_001,Inspection Rig,Shared Lab,available,0.74,2026-12-26
+EQ-0002,ASSET-INDUSTRIAL-CAMERA-002,Industrial Camera_002,Industrial Camera,DAIS Lab,available,0.63,2026-11-29
+EQ-0003,ASSET-SENSOR-KIT-003,Sensor Kit_003,Sensor Kit,Shared Lab,maintenance,0.81,2026-06-28
+EQ-0004,ASSET-STORAGE-SERVER-004,Storage Server_004,Storage Server,DAIS Lab,available,0.42,2026-11-21
+EQ-0005,ASSET-SIMULATION-WORKSTATION-005,Simulation Workstation_005,Simulation Workstation,DAIS Lab,available,0.24,2027-03-02
+EQ-0006,ASSET-SENSOR-KIT-006,Sensor Kit_006,Sensor Kit,AI Server Room,maintenance,0.23,2027-01-23
+EQ-0007,ASSET-INDUSTRIAL-CAMERA-007,Industrial Camera_007,Industrial Camera,DAIS Lab,maintenance,0.76,2027-03-09
+EQ-0008,ASSET-GPU-SERVER-008,GPU Server_008,GPU Server,DAIS Lab,reserved,0.78,2026-07-18
+EQ-0009,ASSET-SIMULATION-WORKSTATION-009,Simulation Workstation_009,Simulation Workstation,AI Server Room,available,0.42,2027-02-02
+EQ-0010,ASSET-INDUSTRIAL-CAMERA-010,Industrial Camera_010,Industrial Camera,Shared Lab,available,0.22,2026-06-02
+EQ-0011,ASSET-SENSOR-KIT-011,Sensor Kit_011,Sensor Kit,Synthetic Factory Cell,maintenance,0.32,2027-03-12
+EQ-0012,ASSET-STORAGE-SERVER-012,Storage Server_012,Storage Server,Shared Lab,available,0.24,2026-09-20
+EQ-0013,ASSET-GPU-SERVER-013,GPU Server_013,GPU Server,DAIS Lab,available,0.13,2027-03-27
+EQ-0014,ASSET-SENSOR-KIT-014,Sensor Kit_014,Sensor Kit,AI Server Room,available,0.89,2026-07-12
+EQ-0015,ASSET-SIMULATION-WORKSTATION-015,Simulation Workstation_015,Simulation Workstation,AI Server Room,available,0.58,2026-09-29
+EQ-0016,ASSET-SENSOR-KIT-016,Sensor Kit_016,Sensor Kit,DAIS Lab,reserved,0.29,2026-06-21
+EQ-0017,ASSET-INSPECTION-RIG-017,Inspection Rig_017,Inspection Rig,DAIS Lab,maintenance,0.63,2027-03-17
+EQ-0018,ASSET-INSPECTION-RIG-018,Inspection Rig_018,Inspection Rig,Synthetic Factory Cell,available,0.25,2026-11-08
+EQ-0019,ASSET-INDUSTRIAL-CAMERA-019,Industrial Camera_019,Industrial Camera,Synthetic Factory Cell,maintenance,0.19,2026-11-01
+EQ-0020,ASSET-SENSOR-KIT-020,Sensor Kit_020,Sensor Kit,Synthetic Factory Cell,available,0.09,2027-03-16
