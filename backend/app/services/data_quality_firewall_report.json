@@ -1,0 +1,389 @@
+{
+  "system": "ShamsDAIS / DAIS-ERP Twin",
+  "module": "Data Quality Firewall",
+  "generated_at": "2026-06-03T03:22:51.030102+00:00",
+  "database": {
+    "host": "localhost",
+    "port": 5433,
+    "name": "dais_erp"
+  },
+  "summary": {
+    "issue_types": 7,
+    "total_issue_instances": 158,
+    "severity_counts": {
+      "critical": 0,
+      "high": 4,
+      "medium": 3,
+      "low": 0
+    }
+  },
+  "issues": [
+    {
+      "issue_id": "DQ-001",
+      "category": "Finance / Invoice",
+      "severity": "medium",
+      "title": "Invoices without linked projects",
+      "count": 39,
+      "description": "These invoices are not linked to any project, so project-level cost tracking is incomplete.",
+      "recommended_action": "Create agent proposals to link each invoice to the most likely project using supplier, purchase request, date, and amount evidence.",
+      "examples": [
+        {
+          "invoice_id": "INV-0021",
+          "invoice_code": "INV-2026-0021",
+          "supplier_name": "Korea Vision Systems",
+          "amount_krw": 391323,
+          "issue_date": "2026-05-13",
+          "confidence": "0.97"
+        },
+        {
+          "invoice_id": "INV-0028",
+          "invoice_code": "INV-2026-0028",
+          "supplier_name": "Ulsan Sensors Ltd.",
+          "amount_krw": 5844955,
+          "issue_date": "2026-06-16",
+          "confidence": "0.97"
+        },
+        {
+          "invoice_id": "INV-0078",
+          "invoice_code": "INV-2026-0078",
+          "supplier_name": "Ulsan Sensor Co.",
+          "amount_krw": 5945836,
+          "issue_date": "2026-08-02",
+          "confidence": "0.95"
+        },
+        {
+          "invoice_id": "INV-0020",
+          "invoice_code": "INV-2026-0020",
+          "supplier_name": "Gyeongnam Robotics Parts",
+          "amount_krw": 4165786,
+          "issue_date": "2026-08-25",
+          "confidence": "0.93"
+        },
+        {
+          "invoice_id": "INV-0010",
+          "invoice_code": "INV-2026-0010",
+          "supplier_name": "Ulsan Sensor Co.",
+          "amount_krw": 205152891,
+          "issue_date": "2026-05-13",
+          "confidence": "0.93"
+        }
+      ]
+    },
+    {
+      "issue_id": "DQ-002",
+      "category": "Research Data",
+      "severity": "medium",
+      "title": "Datasets without owners",
+      "count": 17,
+      "description": "These datasets have no responsible owner, which creates accountability and reproducibility risk.",
+      "recommended_action": "Assign a dataset owner from the project team and create an approval record.",
+      "examples": [
+        {
+          "dataset_id": "DS-0040",
+          "dataset_code": "DATA-WELDING-INSP-v02-040",
+          "title": "Synthetic Welding inspection AI Dataset 040",
+          "project_id": "PJ-0003",
+          "sensitivity_level": "medium",
+          "quality_score": "0.68"
+        },
+        {
+          "dataset_id": "DS-0022",
+          "dataset_code": "DATA-SYSTEM-ANOMA-v02-022",
+          "title": "Synthetic System anomaly detection Dataset 022",
+          "project_id": "PJ-0008",
+          "sensitivity_level": "medium",
+          "quality_score": "0.69"
+        },
+        {
+          "dataset_id": "DS-0010",
+          "dataset_code": "DATA-CYBER-PHYSIC-v04-010",
+          "title": "Synthetic Cyber-physical systems Dataset 010",
+          "project_id": "PJ-0004",
+          "sensitivity_level": "medium",
+          "quality_score": "0.72"
+        },
+        {
+          "dataset_id": "DS-0023",
+          "dataset_code": "DATA-HYDRAULIC-QU-v02-023",
+          "title": "Synthetic Hydraulic quality monitoring Dataset 023",
+          "project_id": "PJ-0002",
+          "sensitivity_level": "medium",
+          "quality_score": "0.73"
+        },
+        {
+          "dataset_id": "DS-0038",
+          "dataset_code": "DATA-HYDRAULIC-QU-v03-038",
+          "title": "Synthetic Hydraulic quality monitoring Dataset 038",
+          "project_id": "PJ-0002",
+          "sensitivity_level": "medium",
+          "quality_score": "0.78"
+        }
+      ]
+    },
+    {
+      "issue_id": "DQ-003",
+      "category": "Model Lineage",
+      "severity": "high",
+      "title": "Models using outdated dataset versions",
+      "count": 8,
+      "description": "These models were trained or registered against outdated dataset versions, creating reproducibility and validity risk.",
+      "recommended_action": "Review model lineage and either retrain the model or approve the old dataset version with justification.",
+      "examples": [
+        {
+          "model_id": "MDL-0022",
+          "model_code": "MODEL-PROCESS-MI-022",
+          "name": "Synthetic Process mining Model 022",
+          "project_id": "PJ-0006",
+          "dataset_id": "DS-0028",
+          "version": "v03",
+          "accuracy": "0.928",
+          "f1_score": "0.939"
+        },
+        {
+          "model_id": "MDL-0032",
+          "model_code": "MODEL-PROCESS-MI-032",
+          "name": "Synthetic Process mining Model 032",
+          "project_id": "PJ-0006",
+          "dataset_id": "DS-0007",
+          "version": "v05",
+          "accuracy": "0.915",
+          "f1_score": "0.824"
+        },
+        {
+          "model_id": "MDL-0038",
+          "model_code": "MODEL-HYDRAULIC--038",
+          "name": "Synthetic Hydraulic quality monitoring Model 038",
+          "project_id": "PJ-0002",
+          "dataset_id": "DS-0018",
+          "version": "v07",
+          "accuracy": "0.914",
+          "f1_score": "0.918"
+        },
+        {
+          "model_id": "MDL-0007",
+          "model_code": "MODEL-HYDRAULIC--007",
+          "name": "Synthetic Hydraulic quality monitoring Model 007",
+          "project_id": "PJ-0002",
+          "dataset_id": "DS-0023",
+          "version": "v12",
+          "accuracy": "0.905",
+          "f1_score": "0.787"
+        },
+        {
+          "model_id": "MDL-0037",
+          "model_code": "MODEL-SYSTEM-ANO-037",
+          "name": "Synthetic System anomaly detection Model 037",
+          "project_id": "PJ-0008",
+          "dataset_id": "DS-0022",
+          "version": "v12",
+          "accuracy": "0.824",
+          "f1_score": "0.869"
+        }
+      ]
+    },
+    {
+      "issue_id": "DQ-004",
+      "category": "Procurement / Budget",
+      "severity": "high",
+      "title": "Over-budget purchase requests",
+      "count": 35,
+      "description": "These purchase requests exceed the project budget rule and require professor-level review.",
+      "recommended_action": "Block automatic approval and route these requests to Professor-level approval with budget evidence.",
+      "examples": [
+        {
+          "purchase_request_id": "PR-0056",
+          "request_code": "PR-2026-0056",
+          "project_id": "PJ-0007",
+          "project_code": "SYN-PJ-2026-MV-DEFECT",
+          "item_name": "Industrial camera lens",
+          "amount_krw": 206812025,
+          "status": "pending"
+        },
+        {
+          "purchase_request_id": "PR-0077",
+          "request_code": "PR-2026-0077",
+          "project_id": "PJ-0007",
+          "project_code": "SYN-PJ-2026-MV-DEFECT",
+          "item_name": "NAS storage expansion",
+          "amount_krw": 206349877,
+          "status": "pending"
+        },
+        {
+          "purchase_request_id": "PR-0032",
+          "request_code": "PR-2026-0032",
+          "project_id": "PJ-0007",
+          "project_code": "SYN-PJ-2026-MV-DEFECT",
+          "item_name": "NAS storage expansion",
+          "amount_krw": 206276495,
+          "status": "pending"
+        },
+        {
+          "purchase_request_id": "PR-0009",
+          "request_code": "PR-2026-0009",
+          "project_id": "PJ-0007",
+          "project_code": "SYN-PJ-2026-MV-DEFECT",
+          "item_name": "Pressure sensor",
+          "amount_krw": 205152891,
+          "status": "rejected"
+        },
+        {
+          "purchase_request_id": "PR-0020",
+          "request_code": "PR-2026-0020",
+          "project_id": "PJ-0007",
+          "project_code": "SYN-PJ-2026-MV-DEFECT",
+          "item_name": "Annotation software license",
+          "amount_krw": 204554277,
+          "status": "rejected"
+        }
+      ]
+    },
+    {
+      "issue_id": "DQ-005",
+      "category": "Equipment Scheduling",
+      "severity": "high",
+      "title": "Equipment reservation conflicts",
+      "count": 3,
+      "description": "These confirmed equipment reservations overlap in time for the same asset.",
+      "recommended_action": "Create conflict-resolution proposals and ask an admin or professor to reschedule one reservation.",
+      "examples": [
+        {
+          "equipment_id": "EQ-0014",
+          "equipment_name": "Sensor Kit_014",
+          "reservation_a": "RSV-0044",
+          "reservation_b": "RSV-0055",
+          "a_start": "2026-07-01 09:00:00+00:00",
+          "a_end": "2026-07-01 13:00:00+00:00",
+          "b_start": "2026-07-01 10:00:00+00:00",
+          "b_end": "2026-07-01 13:00:00+00:00"
+        },
+        {
+          "equipment_id": "EQ-0005",
+          "equipment_name": "Simulation Workstation_005",
+          "reservation_a": "RSV-0027",
+          "reservation_b": "RSV-0048",
+          "a_start": "2026-07-10 13:00:00+00:00",
+          "a_end": "2026-07-10 19:00:00+00:00",
+          "b_start": "2026-07-10 13:00:00+00:00",
+          "b_end": "2026-07-10 19:00:00+00:00"
+        },
+        {
+          "equipment_id": "EQ-0001",
+          "equipment_name": "Inspection Rig_001",
+          "reservation_a": "RSV-0901",
+          "reservation_b": "RSV-0902",
+          "a_start": "2026-07-15 10:00:00+00:00",
+          "a_end": "2026-07-15 14:00:00+00:00",
+          "b_start": "2026-07-15 12:00:00+00:00",
+          "b_end": "2026-07-15 16:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "issue_id": "DQ-006",
+      "category": "Agent Governance",
+      "severity": "high",
+      "title": "High-risk pending agent proposals",
+      "count": 46,
+      "description": "These AI-generated proposals are high-risk and still waiting for human approval.",
+      "recommended_action": "Route these proposals to Professor/Admin review before any ERP state change is applied.",
+      "examples": [
+        {
+          "proposal_id": "AP-0112",
+          "proposal_type": "RESOLVE_EQUIPMENT_CONFLICT",
+          "title": "Overlap detected: RSV-0901 and RSV-0902 on EQ-0001",
+          "affected_entity_type": "EquipmentReservation",
+          "affected_entity_id": "RSV-0901",
+          "confidence": "0.96"
+        },
+        {
+          "proposal_id": "AP-0111",
+          "proposal_type": "RESOLVE_EQUIPMENT_CONFLICT",
+          "title": "Overlap detected: RSV-0044 and RSV-0055 on EQ-0014",
+          "affected_entity_type": "EquipmentReservation",
+          "affected_entity_id": "RSV-0044",
+          "confidence": "0.96"
+        },
+        {
+          "proposal_id": "AP-0110",
+          "proposal_type": "RESOLVE_EQUIPMENT_CONFLICT",
+          "title": "Overlap detected: RSV-0027 and RSV-0048 on EQ-0005",
+          "affected_entity_type": "EquipmentReservation",
+          "affected_entity_id": "RSV-0027",
+          "confidence": "0.96"
+        },
+        {
+          "proposal_id": "AP-0068",
+          "proposal_type": "REVIEW_OVER_BUDGET_PURCHASE",
+          "title": "Purchase request PR-2026-0020 exceeds project budget",
+          "affected_entity_type": "PurchaseRequest",
+          "affected_entity_id": "PR-0020",
+          "confidence": "0.95"
+        },
+        {
+          "proposal_id": "AP-0066",
+          "proposal_type": "REVIEW_OVER_BUDGET_PURCHASE",
+          "title": "Purchase request PR-2026-0007 exceeds project budget",
+          "affected_entity_type": "PurchaseRequest",
+          "affected_entity_id": "PR-0007",
+          "confidence": "0.95"
+        }
+      ]
+    },
+    {
+      "issue_id": "DQ-008",
+      "category": "Publication / Reproducibility",
+      "severity": "medium",
+      "title": "Publications with incomplete reproducibility lineage",
+      "count": 10,
+      "description": "These publications are missing dataset, model, experiment, or reproducibility package links.",
+      "recommended_action": "Link each publication to the correct dataset, model, experiment, code commit, and artifact path.",
+      "examples": [
+        {
+          "publication_id": "PUB-0002",
+          "title": "Synthetic Paper 002: Hydraulic quality monitoring with AI-Based Analytics",
+          "project_id": "PJ-0002",
+          "dataset_id": null,
+          "model_id": null,
+          "experiment_id": null,
+          "reproducibility_package_status": "incomplete"
+        },
+        {
+          "publication_id": "PUB-0005",
+          "title": "Synthetic Paper 005: System anomaly detection with AI-Based Analytics",
+          "project_id": "PJ-0008",
+          "dataset_id": null,
+          "model_id": null,
+          "experiment_id": null,
+          "reproducibility_package_status": "incomplete"
+        },
+        {
+          "publication_id": "PUB-0009",
+          "title": "Synthetic Paper 009: Semiconductor digital twin with AI-Based Analytics",
+          "project_id": "PJ-0005",
+          "dataset_id": null,
+          "model_id": null,
+          "experiment_id": null,
+          "reproducibility_package_status": "incomplete"
+        },
+        {
+          "publication_id": "PUB-0010",
+          "title": "Synthetic Paper 010: System anomaly detection with AI-Based Analytics",
+          "project_id": "PJ-0008",
+          "dataset_id": null,
+          "model_id": null,
+          "experiment_id": null,
+          "reproducibility_package_status": "incomplete"
+        },
+        {
+          "publication_id": "PUB-0011",
+          "title": "Synthetic Paper 011: Welding inspection AI with AI-Based Analytics",
+          "project_id": "PJ-0003",
+          "dataset_id": null,
+          "model_id": null,
+          "experiment_id": null,
+          "reproducibility_package_status": "incomplete"
+        }
+      ]
+    }
+  ]
+}
