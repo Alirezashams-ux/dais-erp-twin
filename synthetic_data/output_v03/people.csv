@@ -1,0 +1,27 @@
+person_id,display_name,role,degree,email,research_area,security_role,actor_type
+SYS-0001,SystemAgent,SystemAgent,,system_agent@synthetic.dais.local,Automated ERP Monitoring,SystemAgent,SystemAgent
+P-0001,Professor_001,Professor,,professor_001@synthetic.dais.local,"Industrial AI, Causality, System-level anomaly detection",Professor,Person
+P-0002,Admin_001,Admin,,admin_001@synthetic.dais.local,Lab operations,Admin,Person
+P-0003,Admin_002,Admin,,admin_002@synthetic.dais.local,Lab operations,Admin,Person
+P-0004,MS_Researcher_001,GraduateResearcher,MS,researcher_001@synthetic.dais.local,Industrial AI,Researcher,Person
+P-0005,PhD_Researcher_002,GraduateResearcher,PhD,researcher_002@synthetic.dais.local,Data mining,Researcher,Person
+P-0006,MS_Researcher_003,GraduateResearcher,MS,researcher_003@synthetic.dais.local,Causality,Researcher,Person
+P-0007,MS_Researcher_004,GraduateResearcher,MS,researcher_004@synthetic.dais.local,Time-series analytics,Researcher,Person
+P-0008,MS_Researcher_005,GraduateResearcher,MS,researcher_005@synthetic.dais.local,Manufacturing AI,Researcher,Person
+P-0009,MS_Researcher_006,GraduateResearcher,MS,researcher_006@synthetic.dais.local,Industrial AI,Researcher,Person
+P-0010,MS_Researcher_007,GraduateResearcher,MS,researcher_007@synthetic.dais.local,Data mining,Researcher,Person
+P-0011,MS_Researcher_008,GraduateResearcher,MS,researcher_008@synthetic.dais.local,Time-series analytics,Researcher,Person
+P-0012,MS_Researcher_009,GraduateResearcher,MS,researcher_009@synthetic.dais.local,Time-series analytics,Researcher,Person
+P-0013,MS_Researcher_010,GraduateResearcher,MS,researcher_010@synthetic.dais.local,Time-series analytics,Researcher,Person
+P-0014,PhD_Researcher_011,GraduateResearcher,PhD,researcher_011@synthetic.dais.local,Data mining,Researcher,Person
+P-0015,PhD_Researcher_012,GraduateResearcher,PhD,researcher_012@synthetic.dais.local,Machine learning,Researcher,Person
+P-0016,OpenLab_Intern_001,UndergraduateOpenLab,BS,openlab_001@synthetic.dais.local,Industrial AI,Researcher,Person
+P-0017,OpenLab_Intern_002,UndergraduateOpenLab,BS,openlab_002@synthetic.dais.local,Causality,Researcher,Person
+P-0018,OpenLab_Intern_003,UndergraduateOpenLab,BS,openlab_003@synthetic.dais.local,Manufacturing AI,Guest,Person
+P-0019,OpenLab_Intern_004,UndergraduateOpenLab,BS,openlab_004@synthetic.dais.local,Digital twin,Researcher,Person
+P-0020,OpenLab_Intern_005,UndergraduateOpenLab,BS,openlab_005@synthetic.dais.local,Machine learning,Researcher,Person
+P-0021,OpenLab_Intern_006,UndergraduateOpenLab,BS,openlab_006@synthetic.dais.local,Causality,Guest,Person
+P-0022,OpenLab_Intern_007,UndergraduateOpenLab,BS,openlab_007@synthetic.dais.local,Data mining,Researcher,Person
+P-0023,OpenLab_Intern_008,UndergraduateOpenLab,BS,openlab_008@synthetic.dais.local,Digital twin,Researcher,Person
+P-0024,OpenLab_Intern_009,UndergraduateOpenLab,BS,openlab_009@synthetic.dais.local,System-level anomaly detection,Guest,Person
+P-0025,OpenLab_Intern_010,UndergraduateOpenLab,BS,openlab_010@synthetic.dais.local,System-level anomaly detection,Researcher,Person

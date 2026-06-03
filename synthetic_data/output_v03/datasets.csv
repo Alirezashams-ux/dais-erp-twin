@@ -1,0 +1,51 @@
+dataset_id,dataset_code,project_id,owner_person_id,title,data_type,version,sensitivity_level,row_count,file_count,quality_score,storage_path,approval_status
+DS-0001,DATA-HYDRAULIC-QU-v01-001,PJ-0002,P-0022,Synthetic Hydraulic quality monitoring Dataset 001,tabular,v02,medium,462326,568,0.93,minio://synthetic-dais/datasets/DS-0001/,approved
+DS-0002,DATA-SEMICONDUCTO-v02-002,PJ-0005,P-0023,Synthetic Semiconductor digital twin Dataset 002,tabular,v01,medium,489008,853,0.95,minio://synthetic-dais/datasets/DS-0002/,approved
+DS-0003,DATA-SEMICONDUCTO-v01-003,PJ-0005,P-0023,Synthetic Semiconductor digital twin Dataset 003,sensor_time_series,v03,medium,317605,1730,0.86,minio://synthetic-dais/datasets/DS-0003/,approved
+DS-0004,DATA-SEMICONDUCTO-v04-004,PJ-0005,,Synthetic Semiconductor digital twin Dataset 004,image,v01,high,435317,2271,0.57,minio://synthetic-dais/datasets/DS-0004/,approved
+DS-0005,DATA-WELDING-INSP-v03-005,PJ-0003,,Synthetic Welding inspection AI Dataset 005,simulation,v04,low,59154,621,0.96,minio://synthetic-dais/datasets/DS-0005/,pending_review
+DS-0006,DATA-WELDING-INSP-v01-006,PJ-0003,P-0025,Synthetic Welding inspection AI Dataset 006,inspection_log,v02,high,67318,347,0.68,minio://synthetic-dais/datasets/DS-0006/,approved
+DS-0007,DATA-PROCESS-MINI-v02-007,PJ-0006,P-0007,Synthetic Process mining Dataset 007,tabular,v04,medium,485866,1944,0.92,minio://synthetic-dais/datasets/DS-0007/,approved
+DS-0008,DATA-MACHINE-VISI-v01-008,PJ-0007,,Synthetic Machine vision Dataset 008,tabular,v04,medium,140383,1309,0.89,minio://synthetic-dais/datasets/DS-0008/,approved
+DS-0009,DATA-MACHINE-VISI-v01-009,PJ-0007,P-0011,Synthetic Machine vision Dataset 009,sensor_time_series,v04,medium,160507,1869,0.65,minio://synthetic-dais/datasets/DS-0009/,pending_review
+DS-0010,DATA-CYBER-PHYSIC-v04-010,PJ-0004,,Synthetic Cyber-physical systems Dataset 010,image,v03,medium,336821,4178,0.72,minio://synthetic-dais/datasets/DS-0010/,pending_review
+DS-0011,DATA-PROCESS-MINI-v01-011,PJ-0006,,Synthetic Process mining Dataset 011,tabular,v02,medium,20557,893,0.81,minio://synthetic-dais/datasets/DS-0011/,approved
+DS-0012,DATA-PROCESS-MINI-v04-012,PJ-0006,P-0022,Synthetic Process mining Dataset 012,image,v04,medium,134047,368,0.85,minio://synthetic-dais/datasets/DS-0012/,approved
+DS-0013,DATA-CYBER-PHYSIC-v03-013,PJ-0004,P-0014,Synthetic Cyber-physical systems Dataset 013,inspection_log,v03,low,377858,2465,0.77,minio://synthetic-dais/datasets/DS-0013/,pending_review
+DS-0014,DATA-MACHINE-VISI-v03-014,PJ-0007,P-0013,Synthetic Machine vision Dataset 014,inspection_log,v02,medium,220934,3110,0.84,minio://synthetic-dais/datasets/DS-0014/,approved
+DS-0015,DATA-SEMICONDUCTO-v04-015,PJ-0005,P-0004,Synthetic Semiconductor digital twin Dataset 015,tabular,v03,medium,225885,4756,0.81,minio://synthetic-dais/datasets/DS-0015/,approved
+DS-0016,DATA-SYSTEM-ANOMA-v04-016,PJ-0008,P-0010,Synthetic System anomaly detection Dataset 016,inspection_log,v04,medium,345927,699,0.67,minio://synthetic-dais/datasets/DS-0016/,pending_review
+DS-0017,DATA-PROCESS-MINI-v01-017,PJ-0006,P-0011,Synthetic Process mining Dataset 017,tabular,v02,medium,77755,205,0.57,minio://synthetic-dais/datasets/DS-0017/,approved
+DS-0018,DATA-HYDRAULIC-QU-v04-018,PJ-0002,P-0025,Synthetic Hydraulic quality monitoring Dataset 018,sensor_time_series,v04,high,210033,2003,0.61,minio://synthetic-dais/datasets/DS-0018/,pending_review
+DS-0019,DATA-BESS-SAFETY--v01-019,PJ-0001,P-0011,Synthetic BESS safety AI Dataset 019,sensor_time_series,v04,low,292741,2046,0.94,minio://synthetic-dais/datasets/DS-0019/,approved
+DS-0020,DATA-SYSTEM-ANOMA-v02-020,PJ-0008,P-0022,Synthetic System anomaly detection Dataset 020,inspection_log,v03,high,321706,4140,0.73,minio://synthetic-dais/datasets/DS-0020/,pending_review
+DS-0021,DATA-SYSTEM-ANOMA-v02-021,PJ-0008,P-0020,Synthetic System anomaly detection Dataset 021,simulation,v03,medium,440830,2276,0.88,minio://synthetic-dais/datasets/DS-0021/,pending_review
+DS-0022,DATA-SYSTEM-ANOMA-v02-022,PJ-0008,,Synthetic System anomaly detection Dataset 022,image,v03,medium,142956,2756,0.69,minio://synthetic-dais/datasets/DS-0022/,pending_review
+DS-0023,DATA-HYDRAULIC-QU-v02-023,PJ-0002,,Synthetic Hydraulic quality monitoring Dataset 023,simulation,v02,medium,34174,3403,0.73,minio://synthetic-dais/datasets/DS-0023/,pending_review
+DS-0024,DATA-SYSTEM-ANOMA-v04-024,PJ-0008,,Synthetic System anomaly detection Dataset 024,simulation,v04,low,449674,4721,0.71,minio://synthetic-dais/datasets/DS-0024/,approved
+DS-0025,DATA-PROCESS-MINI-v03-025,PJ-0006,P-0017,Synthetic Process mining Dataset 025,inspection_log,v02,high,115540,2240,0.74,minio://synthetic-dais/datasets/DS-0025/,approved
+DS-0026,DATA-MACHINE-VISI-v03-026,PJ-0007,P-0016,Synthetic Machine vision Dataset 026,sensor_time_series,v04,medium,326741,4380,0.56,minio://synthetic-dais/datasets/DS-0026/,approved
+DS-0027,DATA-BESS-SAFETY--v01-027,PJ-0001,P-0008,Synthetic BESS safety AI Dataset 027,simulation,v02,low,136896,3110,0.69,minio://synthetic-dais/datasets/DS-0027/,approved
+DS-0028,DATA-PROCESS-MINI-v03-028,PJ-0006,P-0016,Synthetic Process mining Dataset 028,tabular,v04,medium,438233,675,0.75,minio://synthetic-dais/datasets/DS-0028/,pending_review
+DS-0029,DATA-BESS-SAFETY--v03-029,PJ-0001,,Synthetic BESS safety AI Dataset 029,image,v01,low,498370,2030,0.64,minio://synthetic-dais/datasets/DS-0029/,approved
+DS-0030,DATA-WELDING-INSP-v02-030,PJ-0003,,Synthetic Welding inspection AI Dataset 030,image,v02,high,367221,2104,0.88,minio://synthetic-dais/datasets/DS-0030/,approved
+DS-0031,DATA-HYDRAULIC-QU-v02-031,PJ-0002,P-0007,Synthetic Hydraulic quality monitoring Dataset 031,inspection_log,v01,medium,302383,3079,0.72,minio://synthetic-dais/datasets/DS-0031/,pending_review
+DS-0032,DATA-CYBER-PHYSIC-v01-032,PJ-0004,P-0011,Synthetic Cyber-physical systems Dataset 032,image,v03,low,417952,4641,0.89,minio://synthetic-dais/datasets/DS-0032/,approved
+DS-0033,DATA-MACHINE-VISI-v03-033,PJ-0007,,Synthetic Machine vision Dataset 033,tabular,v01,high,431638,4020,0.6,minio://synthetic-dais/datasets/DS-0033/,approved
+DS-0034,DATA-SYSTEM-ANOMA-v02-034,PJ-0008,P-0022,Synthetic System anomaly detection Dataset 034,tabular,v04,high,228866,4858,0.67,minio://synthetic-dais/datasets/DS-0034/,approved
+DS-0035,DATA-HYDRAULIC-QU-v03-035,PJ-0002,P-0011,Synthetic Hydraulic quality monitoring Dataset 035,simulation,v04,medium,15547,4054,0.92,minio://synthetic-dais/datasets/DS-0035/,approved
+DS-0036,DATA-SYSTEM-ANOMA-v02-036,PJ-0008,P-0012,Synthetic System anomaly detection Dataset 036,tabular,v03,medium,291894,88,0.77,minio://synthetic-dais/datasets/DS-0036/,approved
+DS-0037,DATA-HYDRAULIC-QU-v02-037,PJ-0002,P-0020,Synthetic Hydraulic quality monitoring Dataset 037,inspection_log,v02,high,339139,4025,0.74,minio://synthetic-dais/datasets/DS-0037/,approved
+DS-0038,DATA-HYDRAULIC-QU-v03-038,PJ-0002,,Synthetic Hydraulic quality monitoring Dataset 038,sensor_time_series,v03,medium,248624,4539,0.78,minio://synthetic-dais/datasets/DS-0038/,approved
+DS-0039,DATA-PROCESS-MINI-v03-039,PJ-0006,P-0012,Synthetic Process mining Dataset 039,tabular,v03,medium,63758,1582,0.69,minio://synthetic-dais/datasets/DS-0039/,pending_review
+DS-0040,DATA-WELDING-INSP-v02-040,PJ-0003,,Synthetic Welding inspection AI Dataset 040,simulation,v03,medium,53204,1595,0.68,minio://synthetic-dais/datasets/DS-0040/,approved
+DS-0041,DATA-WELDING-INSP-v03-041,PJ-0003,,Synthetic Welding inspection AI Dataset 041,inspection_log,v02,medium,24363,451,0.79,minio://synthetic-dais/datasets/DS-0041/,pending_review
+DS-0042,DATA-WELDING-INSP-v04-042,PJ-0003,,Synthetic Welding inspection AI Dataset 042,image,v03,high,251484,3613,0.7,minio://synthetic-dais/datasets/DS-0042/,approved
+DS-0043,DATA-SEMICONDUCTO-v04-043,PJ-0005,,Synthetic Semiconductor digital twin Dataset 043,image,v04,high,39340,4731,0.82,minio://synthetic-dais/datasets/DS-0043/,approved
+DS-0044,DATA-WELDING-INSP-v02-044,PJ-0003,P-0013,Synthetic Welding inspection AI Dataset 044,image,v02,low,293090,3414,0.81,minio://synthetic-dais/datasets/DS-0044/,pending_review
+DS-0045,DATA-CYBER-PHYSIC-v04-045,PJ-0004,P-0019,Synthetic Cyber-physical systems Dataset 045,tabular,v04,medium,298625,498,0.81,minio://synthetic-dais/datasets/DS-0045/,pending_review
+DS-0046,DATA-HYDRAULIC-QU-v02-046,PJ-0002,P-0012,Synthetic Hydraulic quality monitoring Dataset 046,image,v02,medium,91628,4526,0.58,minio://synthetic-dais/datasets/DS-0046/,approved
+DS-0047,DATA-MACHINE-VISI-v04-047,PJ-0007,P-0020,Synthetic Machine vision Dataset 047,tabular,v01,medium,151549,2321,0.85,minio://synthetic-dais/datasets/DS-0047/,approved
+DS-0048,DATA-HYDRAULIC-QU-v02-048,PJ-0002,P-0025,Synthetic Hydraulic quality monitoring Dataset 048,sensor_time_series,v04,low,286007,1846,0.83,minio://synthetic-dais/datasets/DS-0048/,approved
+DS-0049,DATA-WELDING-INSP-v01-049,PJ-0003,,Synthetic Welding inspection AI Dataset 049,tabular,v03,high,65697,3844,0.85,minio://synthetic-dais/datasets/DS-0049/,pending_review
+DS-0050,DATA-MACHINE-VISI-v03-050,PJ-0007,P-0020,Synthetic Machine vision Dataset 050,simulation,v01,low,466813,3544,0.87,minio://synthetic-dais/datasets/DS-0050/,pending_review

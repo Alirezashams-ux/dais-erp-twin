@@ -1,0 +1,34 @@
+{
+  "version": "v0.3",
+  "mode": "stress",
+  "generated_at": "2026-06-03T01:38:31+00:00",
+  "counts": {
+    "people": 26,
+    "projects": 8,
+    "project_members": 44,
+    "equipment": 20,
+    "datasets": 50,
+    "model_assets": 40,
+    "experiments": 120,
+    "equipment_reservations": 62,
+    "purchase_requests": 80,
+    "invoices": 90,
+    "milestones": 40,
+    "publications": 30,
+    "erp_events": 388,
+    "workflow_events": 298,
+    "agent_proposals": 112
+  },
+  "total_anomalies": 153,
+  "anomaly_severity": {
+    "low": 0,
+    "medium": 107,
+    "high": 46
+  },
+  "erp_chain_valid": true,
+  "equipment_conflicts": 3,
+  "temporal_errors": 0,
+  "workflow_event_count": 298,
+  "workflow_hash_chain_valid": true,
+  "purchase_workflow_status_mismatches": 0
+}

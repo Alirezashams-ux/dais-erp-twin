@@ -1,0 +1,949 @@
+{
+  "version": "v0.3",
+  "mode": "stress",
+  "generated_at": "2026-06-03T01:38:31+00:00",
+  "total_anomalies": 153,
+  "by_type": {
+    "MISSING_DATASET_OWNER": 17,
+    "OUTDATED_DATASET_VERSION": 8,
+    "OVER_BUDGET_PURCHASE": 35,
+    "UNLINKED_INVOICE_NO_PROJECT": 39,
+    "UNLINKED_INVOICE_NO_PR": 41,
+    "INCOMPLETE_PUB_LINEAGE": 10,
+    "EQUIPMENT_DOUBLE_BOOKING": 3
+  },
+  "by_severity": {
+    "low": 0,
+    "medium": 107,
+    "high": 46
+  },
+  "temporal_errors": [],
+  "erp_chain_valid": true,
+  "equipment_conflicts": 3,
+  "workflow_event_count": 298,
+  "workflow_hash_chain_valid": true,
+  "workflow_hash_mismatches": 0,
+  "workflow_chain_breaks": 0,
+  "purchase_workflow_status_mismatches": 0,
+  "purchase_workflow_status_mismatch_examples": [],
+  "anomalies": [
+    {
+      "type": "MISSING_DATASET_OWNER",
+      "entity": "Dataset",
+      "id": "DS-0004",
+      "severity": "medium"
+    },
+    {
+      "type": "MISSING_DATASET_OWNER",
+      "entity": "Dataset",
+      "id": "DS-0005",
+      "severity": "medium"
+    },
+    {
+      "type": "MISSING_DATASET_OWNER",
+      "entity": "Dataset",
+      "id": "DS-0008",
+      "severity": "medium"
+    },
+    {
+      "type": "MISSING_DATASET_OWNER",
+      "entity": "Dataset",
+      "id": "DS-0010",
+      "severity": "medium"
+    },
+    {
+      "type": "MISSING_DATASET_OWNER",
+      "entity": "Dataset",
+      "id": "DS-0011",
+      "severity": "medium"
+    },
+    {
+      "type": "MISSING_DATASET_OWNER",
+      "entity": "Dataset",
+      "id": "DS-0022",
+      "severity": "medium"
+    },
+    {
+      "type": "MISSING_DATASET_OWNER",
+      "entity": "Dataset",
+      "id": "DS-0023",
+      "severity": "medium"
+    },
+    {
+      "type": "MISSING_DATASET_OWNER",
+      "entity": "Dataset",
+      "id": "DS-0024",
+      "severity": "medium"
+    },
+    {
+      "type": "MISSING_DATASET_OWNER",
+      "entity": "Dataset",
+      "id": "DS-0029",
+      "severity": "medium"
+    },
+    {
+      "type": "MISSING_DATASET_OWNER",
+      "entity": "Dataset",
+      "id": "DS-0030",
+      "severity": "medium"
+    },
+    {
+      "type": "MISSING_DATASET_OWNER",
+      "entity": "Dataset",
+      "id": "DS-0033",
+      "severity": "medium"
+    },
+    {
+      "type": "MISSING_DATASET_OWNER",
+      "entity": "Dataset",
+      "id": "DS-0038",
+      "severity": "medium"
+    },
+    {
+      "type": "MISSING_DATASET_OWNER",
+      "entity": "Dataset",
+      "id": "DS-0040",
+      "severity": "medium"
+    },
+    {
+      "type": "MISSING_DATASET_OWNER",
+      "entity": "Dataset",
+      "id": "DS-0041",
+      "severity": "medium"
+    },
+    {
+      "type": "MISSING_DATASET_OWNER",
+      "entity": "Dataset",
+      "id": "DS-0042",
+      "severity": "medium"
+    },
+    {
+      "type": "MISSING_DATASET_OWNER",
+      "entity": "Dataset",
+      "id": "DS-0043",
+      "severity": "medium"
+    },
+    {
+      "type": "MISSING_DATASET_OWNER",
+      "entity": "Dataset",
+      "id": "DS-0049",
+      "severity": "medium"
+    },
+    {
+      "type": "OUTDATED_DATASET_VERSION",
+      "entity": "ModelAsset",
+      "id": "MDL-0007",
+      "severity": "high"
+    },
+    {
+      "type": "OUTDATED_DATASET_VERSION",
+      "entity": "ModelAsset",
+      "id": "MDL-0016",
+      "severity": "high"
+    },
+    {
+      "type": "OUTDATED_DATASET_VERSION",
+      "entity": "ModelAsset",
+      "id": "MDL-0022",
+      "severity": "high"
+    },
+    {
+      "type": "OUTDATED_DATASET_VERSION",
+      "entity": "ModelAsset",
+      "id": "MDL-0026",
+      "severity": "high"
+    },
+    {
+      "type": "OUTDATED_DATASET_VERSION",
+      "entity": "ModelAsset",
+      "id": "MDL-0029",
+      "severity": "high"
+    },
+    {
+      "type": "OUTDATED_DATASET_VERSION",
+      "entity": "ModelAsset",
+      "id": "MDL-0032",
+      "severity": "high"
+    },
+    {
+      "type": "OUTDATED_DATASET_VERSION",
+      "entity": "ModelAsset",
+      "id": "MDL-0037",
+      "severity": "high"
+    },
+    {
+      "type": "OUTDATED_DATASET_VERSION",
+      "entity": "ModelAsset",
+      "id": "MDL-0038",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0001",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0007",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0009",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0020",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0022",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0024",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0026",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0027",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0028",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0029",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0032",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0038",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0040",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0042",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0043",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0045",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0046",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0049",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0050",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0051",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0053",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0056",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0057",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0058",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0063",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0066",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0068",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0069",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0070",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0071",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0072",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0073",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0074",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0077",
+      "severity": "high"
+    },
+    {
+      "type": "OVER_BUDGET_PURCHASE",
+      "entity": "PurchaseRequest",
+      "id": "PR-0079",
+      "severity": "high"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0002",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0002",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0005",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0006",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0008",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0010",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0011",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0013",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0013",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0014",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0015",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0015",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0016",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0016",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0018",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0018",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0020",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0020",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0021",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0021",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0022",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0022",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0026",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0027",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0028",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0029",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0031",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0032",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0033",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0034",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0034",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0036",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0037",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0038",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0040",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0041",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0041",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0043",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0043",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0044",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0045",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0046",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0047",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0048",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0048",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0050",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0051",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0052",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0053",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0054",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0055",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0055",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0056",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0058",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0059",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0059",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0060",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0061",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0061",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0063",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0064",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0064",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0067",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0067",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0068",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0070",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0070",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0072",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0072",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0076",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0077",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0078",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0079",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0081",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0082",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0085",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0085",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PROJECT",
+      "entity": "Invoice",
+      "id": "INV-0086",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0088",
+      "severity": "medium"
+    },
+    {
+      "type": "UNLINKED_INVOICE_NO_PR",
+      "entity": "Invoice",
+      "id": "INV-0090",
+      "severity": "medium"
+    },
+    {
+      "type": "INCOMPLETE_PUB_LINEAGE",
+      "entity": "Publication",
+      "id": "PUB-0002",
+      "severity": "medium"
+    },
+    {
+      "type": "INCOMPLETE_PUB_LINEAGE",
+      "entity": "Publication",
+      "id": "PUB-0005",
+      "severity": "medium"
+    },
+    {
+      "type": "INCOMPLETE_PUB_LINEAGE",
+      "entity": "Publication",
+      "id": "PUB-0009",
+      "severity": "medium"
+    },
+    {
+      "type": "INCOMPLETE_PUB_LINEAGE",
+      "entity": "Publication",
+      "id": "PUB-0010",
+      "severity": "medium"
+    },
+    {
+      "type": "INCOMPLETE_PUB_LINEAGE",
+      "entity": "Publication",
+      "id": "PUB-0011",
+      "severity": "medium"
+    },
+    {
+      "type": "INCOMPLETE_PUB_LINEAGE",
+      "entity": "Publication",
+      "id": "PUB-0017",
+      "severity": "medium"
+    },
+    {
+      "type": "INCOMPLETE_PUB_LINEAGE",
+      "entity": "Publication",
+      "id": "PUB-0019",
+      "severity": "medium"
+    },
+    {
+      "type": "INCOMPLETE_PUB_LINEAGE",
+      "entity": "Publication",
+      "id": "PUB-0020",
+      "severity": "medium"
+    },
+    {
+      "type": "INCOMPLETE_PUB_LINEAGE",
+      "entity": "Publication",
+      "id": "PUB-0021",
+      "severity": "medium"
+    },
+    {
+      "type": "INCOMPLETE_PUB_LINEAGE",
+      "entity": "Publication",
+      "id": "PUB-0030",
+      "severity": "medium"
+    },
+    {
+      "type": "EQUIPMENT_DOUBLE_BOOKING",
+      "entity": "EquipmentReservation",
+      "id": "RSV-0027",
+      "severity": "high"
+    },
+    {
+      "type": "EQUIPMENT_DOUBLE_BOOKING",
+      "entity": "EquipmentReservation",
+      "id": "RSV-0044",
+      "severity": "high"
+    },
+    {
+      "type": "EQUIPMENT_DOUBLE_BOOKING",
+      "entity": "EquipmentReservation",
+      "id": "RSV-0901",
+      "severity": "high"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+purchase_request_id,request_code,project_id,requester_person_id,item_name,amount_krw,status,approval_required,budget_check_status,created_at
+PR-0001,PR-2026-0001,PJ-0005,P-0017,Conference registration,123371602,rejected,true,over_budget,2026-05-06T00:00:00
+PR-0002,PR-2026-0002,PJ-0007,P-0023,Vibration sensor kit,4182485,invoiced,true,ok,2026-08-21T00:00:00
+PR-0003,PR-2026-0003,PJ-0003,P-0014,Pressure sensor,1276892,approved,true,ok,2026-09-06T00:00:00
+PR-0004,PR-2026-0004,PJ-0001,P-0008,Thermal camera module,180391,ordered,false,ok,2026-07-08T00:00:00
+PR-0005,PR-2026-0005,PJ-0008,P-0019,Pressure sensor,4224895,ordered,true,ok,2026-05-13T00:00:00
+PR-0006,PR-2026-0006,PJ-0002,P-0005,NAS storage expansion,1949935,approved,true,ok,2026-05-28T00:00:00
+PR-0007,PR-2026-0007,PJ-0005,P-0025,GPU workstation component,129309978,pending,true,over_budget,2026-06-08T00:00:00
+PR-0008,PR-2026-0008,PJ-0006,P-0019,Experiment fixture,449054,paid,false,ok,2026-05-26T00:00:00
+PR-0009,PR-2026-0009,PJ-0007,P-0005,Pressure sensor,205152891,rejected,true,over_budget,2026-06-07T00:00:00
+PR-0010,PR-2026-0010,PJ-0006,P-0007,Thermal camera module,829666,ordered,false,ok,2026-05-24T00:00:00
+PR-0011,PR-2026-0011,PJ-0006,P-0017,Vibration sensor kit,5219247,invoiced,true,ok,2026-09-05T00:00:00
+PR-0012,PR-2026-0012,PJ-0003,P-0005,Conference registration,1835961,paid,true,ok,2026-06-29T00:00:00
+PR-0013,PR-2026-0013,PJ-0005,P-0013,NAS storage expansion,1512451,approved,true,ok,2026-08-25T00:00:00
+PR-0014,PR-2026-0014,PJ-0005,P-0007,Vibration sensor kit,4415225,invoiced,true,ok,2026-07-15T00:00:00
+PR-0015,PR-2026-0015,PJ-0001,P-0008,Thermal camera module,5602056,approved,true,ok,2026-05-08T00:00:00
+PR-0016,PR-2026-0016,PJ-0006,P-0020,Vibration sensor kit,5772666,ordered,true,ok,2026-08-26T00:00:00
+PR-0017,PR-2026-0017,PJ-0005,P-0006,GPU workstation component,3247173,ordered,true,ok,2026-07-13T00:00:00
+PR-0018,PR-2026-0018,PJ-0005,P-0020,Annotation software license,3195993,ordered,true,ok,2026-08-27T00:00:00
+PR-0019,PR-2026-0019,PJ-0001,P-0019,Annotation software license,881328,invoiced,false,ok,2026-04-17T00:00:00
+PR-0020,PR-2026-0020,PJ-0007,P-0012,Annotation software license,204554277,rejected,true,over_budget,2026-06-12T00:00:00
+PR-0021,PR-2026-0021,PJ-0006,P-0020,Annotation software license,1195503,received,true,ok,2026-04-13T00:00:00
+PR-0022,PR-2026-0022,PJ-0001,P-0009,Pressure sensor,121273155,pending,true,over_budget,2026-07-26T00:00:00
+PR-0023,PR-2026-0023,PJ-0001,P-0008,NAS storage expansion,3688640,approved,true,ok,2026-05-11T00:00:00
+PR-0024,PR-2026-0024,PJ-0005,P-0015,Vibration sensor kit,125200835,pending,true,over_budget,2026-04-14T00:00:00
+PR-0025,PR-2026-0025,PJ-0007,P-0011,Edge AI box,5967339,paid,true,ok,2026-04-24T00:00:00
+PR-0026,PR-2026-0026,PJ-0002,P-0025,Thermal camera module,52307594,pending,true,over_budget,2026-08-11T00:00:00
+PR-0027,PR-2026-0027,PJ-0008,P-0017,Vibration sensor kit,56764217,pending,true,over_budget,2026-08-01T00:00:00
+PR-0028,PR-2026-0028,PJ-0002,P-0014,Annotation software license,52718442,pending,true,over_budget,2026-06-16T00:00:00
+PR-0029,PR-2026-0029,PJ-0003,P-0022,Conference registration,123396676,pending,true,over_budget,2026-04-03T00:00:00
+PR-0030,PR-2026-0030,PJ-0003,P-0008,Edge AI box,1887238,invoiced,true,ok,2026-09-05T00:00:00
+PR-0031,PR-2026-0031,PJ-0008,P-0008,GPU workstation component,827191,pending,false,ok,2026-08-29T00:00:00
+PR-0032,PR-2026-0032,PJ-0007,P-0011,NAS storage expansion,206276495,pending,true,over_budget,2026-04-22T00:00:00
+PR-0033,PR-2026-0033,PJ-0004,P-0013,Industrial camera lens,5133230,invoiced,true,ok,2026-06-17T00:00:00
+PR-0034,PR-2026-0034,PJ-0004,P-0016,NAS storage expansion,4374185,approved,true,ok,2026-04-14T00:00:00
+PR-0035,PR-2026-0035,PJ-0004,P-0020,Conference registration,1045762,approved,true,ok,2026-04-19T00:00:00
+PR-0036,PR-2026-0036,PJ-0001,P-0016,Conference registration,2754765,approved,true,ok,2026-07-17T00:00:00
+PR-0037,PR-2026-0037,PJ-0006,P-0020,GPU workstation component,1549302,paid,true,ok,2026-04-05T00:00:00
+PR-0038,PR-2026-0038,PJ-0002,P-0016,Experiment fixture,51668183,pending,true,over_budget,2026-06-13T00:00:00
+PR-0039,PR-2026-0039,PJ-0007,P-0023,Experiment fixture,3474547,pending,true,ok,2026-09-05T00:00:00
+PR-0040,PR-2026-0040,PJ-0003,P-0008,Experiment fixture,122325761,pending,true,over_budget,2026-06-23T00:00:00
+PR-0041,PR-2026-0041,PJ-0007,P-0006,NAS storage expansion,5551249,invoiced,true,ok,2026-07-21T00:00:00
+PR-0042,PR-2026-0042,PJ-0004,P-0019,Conference registration,128289425,pending,true,over_budget,2026-09-03T00:00:00
+PR-0043,PR-2026-0043,PJ-0001,P-0004,Vibration sensor kit,123946849,pending,true,over_budget,2026-04-03T00:00:00
+PR-0044,PR-2026-0044,PJ-0003,P-0022,NAS storage expansion,3008373,received,true,ok,2026-05-13T00:00:00
+PR-0045,PR-2026-0045,PJ-0006,P-0014,Edge AI box,52980663,pending,true,over_budget,2026-06-09T00:00:00
+PR-0046,PR-2026-0046,PJ-0002,P-0019,Experiment fixture,52293020,rejected,true,over_budget,2026-07-02T00:00:00
+PR-0047,PR-2026-0047,PJ-0001,P-0015,Vibration sensor kit,4855385,approved,true,ok,2026-06-05T00:00:00
+PR-0048,PR-2026-0048,PJ-0002,P-0007,Thermal camera module,5754932,invoiced,true,ok,2026-08-09T00:00:00
+PR-0049,PR-2026-0049,PJ-0001,P-0020,Annotation software license,125102892,pending,true,over_budget,2026-07-08T00:00:00
+PR-0050,PR-2026-0050,PJ-0003,P-0014,Thermal camera module,128035849,pending,true,over_budget,2026-07-16T00:00:00
+PR-0051,PR-2026-0051,PJ-0006,P-0022,Industrial camera lens,57254683,pending,true,over_budget,2026-05-16T00:00:00
+PR-0052,PR-2026-0052,PJ-0004,P-0006,Pressure sensor,485276,ordered,false,ok,2026-06-12T00:00:00
+PR-0053,PR-2026-0053,PJ-0005,P-0015,Thermal camera module,128662929,pending,true,over_budget,2026-06-14T00:00:00
+PR-0054,PR-2026-0054,PJ-0005,P-0015,Conference registration,2134942,ordered,true,ok,2026-08-05T00:00:00
+PR-0055,PR-2026-0055,PJ-0004,P-0011,Vibration sensor kit,4684871,paid,true,ok,2026-04-02T00:00:00
+PR-0056,PR-2026-0056,PJ-0007,P-0014,Industrial camera lens,206812025,pending,true,over_budget,2026-07-06T00:00:00
+PR-0057,PR-2026-0057,PJ-0005,P-0020,Industrial camera lens,124995789,rejected,true,over_budget,2026-05-07T00:00:00
+PR-0058,PR-2026-0058,PJ-0005,P-0015,Pressure sensor,129720112,rejected,true,over_budget,2026-04-22T00:00:00
+PR-0059,PR-2026-0059,PJ-0002,P-0016,GPU workstation component,5445352,paid,true,ok,2026-08-30T00:00:00
+PR-0060,PR-2026-0060,PJ-0001,P-0013,NAS storage expansion,1196460,approved,true,ok,2026-06-20T00:00:00
+PR-0061,PR-2026-0061,PJ-0007,P-0019,NAS storage expansion,2836796,approved,true,ok,2026-05-30T00:00:00
+PR-0062,PR-2026-0062,PJ-0002,P-0025,GPU workstation component,1241788,paid,true,ok,2026-05-10T00:00:00
+PR-0063,PR-2026-0063,PJ-0002,P-0007,Experiment fixture,56268604,rejected,true,over_budget,2026-07-01T00:00:00
+PR-0064,PR-2026-0064,PJ-0004,P-0007,GPU workstation component,3986832,approved,true,ok,2026-05-11T00:00:00
+PR-0065,PR-2026-0065,PJ-0005,P-0005,Thermal camera module,5945836,received,true,ok,2026-06-23T00:00:00
+PR-0066,PR-2026-0066,PJ-0003,P-0022,Industrial camera lens,126968373,rejected,true,over_budget,2026-06-16T00:00:00
+PR-0067,PR-2026-0067,PJ-0005,P-0016,Pressure sensor,1558508,pending,true,ok,2026-08-21T00:00:00
+PR-0068,PR-2026-0068,PJ-0004,P-0004,Industrial camera lens,123345338,pending,true,over_budget,2026-05-27T00:00:00
+PR-0069,PR-2026-0069,PJ-0003,P-0025,Conference registration,127245146,pending,true,over_budget,2026-06-06T00:00:00
+PR-0070,PR-2026-0070,PJ-0002,P-0008,GPU workstation component,54317700,rejected,true,over_budget,2026-06-24T00:00:00
+PR-0071,PR-2026-0071,PJ-0002,P-0025,Edge AI box,51849559,pending,true,over_budget,2026-07-11T00:00:00
+PR-0072,PR-2026-0072,PJ-0008,P-0015,Thermal camera module,58158234,pending,true,over_budget,2026-05-18T00:00:00
+PR-0073,PR-2026-0073,PJ-0005,P-0013,Pressure sensor,121581321,pending,true,over_budget,2026-07-15T00:00:00
+PR-0074,PR-2026-0074,PJ-0008,P-0017,Thermal camera module,57425930,pending,true,over_budget,2026-08-13T00:00:00
+PR-0075,PR-2026-0075,PJ-0004,P-0004,Edge AI box,4660522,paid,true,ok,2026-07-01T00:00:00
+PR-0076,PR-2026-0076,PJ-0008,P-0025,Experiment fixture,4165786,approved,true,ok,2026-06-22T00:00:00
+PR-0077,PR-2026-0077,PJ-0007,P-0004,NAS storage expansion,206349877,pending,true,over_budget,2026-04-15T00:00:00
+PR-0078,PR-2026-0078,PJ-0008,P-0009,GPU workstation component,4998854,approved,true,ok,2026-06-03T00:00:00
+PR-0079,PR-2026-0079,PJ-0004,P-0015,Vibration sensor kit,124681115,rejected,true,over_budget,2026-05-16T00:00:00
+PR-0080,PR-2026-0080,PJ-0004,P-0025,Industrial camera lens,5952115,approved,true,ok,2026-06-30T00:00:00
