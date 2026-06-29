@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShamsDAIS ERP Twin — AI Lab Mission Control</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #eef3fb;
+      color: #0f172a;
+    }
+
+    header {
+      background: linear-gradient(135deg, #07111f, #172554);
+      color: white;
+      padding: 36px 48px;
+    }
+
+    .pill {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(96, 165, 250, 0.18);
+      border: 1px solid rgba(191, 219, 254, 0.35);
+      color: #bfdbfe;
+      font-weight: bold;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 46px;
+      letter-spacing: -1.5px;
+    }
+
+    .subtitle {
+      margin-top: 10px;
+      color: #dbeafe;
+      font-size: 17px;
+      max-width: 900px;
+      line-height: 1.5;
+    }
+
+    .korean {
+      margin-top: 8px;
+      color: #93c5fd;
+      font-weight: bold;
+    }
+
+    main {
+      max-width: 1450px;
+      margin: -22px auto 60px;
+      padding: 0 28px;
+    }
+
+    .bar, .card, .panel {
+      background: white;
+      border-radius: 18px;
+      box-shadow: 0 10px 28px rgba(15, 23, 42, 0.08);
+      border: 1px solid #dbe4f0;
+    }
+
+    .bar {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 14px;
+      margin-bottom: 18px;
+    }
+
+    .badge {
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    .good { background: #dcfce7; color: #166534; }
+    .bad { background: #fee2e2; color: #991b1b; }
+    .info { background: #e0f2fe; color: #075985; }
+    .agent { background: #ede9fe; color: #5b21b6; }
+
+    button {
+      background: #2563eb;
+      color: white;
+      border: none;
+      padding: 10px 14px;
+      border-radius: 10px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #1d4ed8;
+    }
+
+    .mission {
+      display: grid;
+      grid-template-columns: 1.5fr 0.5fr;
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+
+    .card {
+      padding: 20px;
+    }
+
+    .title-small {
+      color: #7c3aed;
+      font-size: 13px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 10px;
+    }
+
+    .insight {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .trust {
+      font-size: 52px;
+      font-weight: 900;
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-bottom: 22px;
+    }
+
+    .metric-label {
+      color: #64748b;
+      font-size: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .metric-value {
+      margin-top: 8px;
+      font-size: 36px;
+      font-weight: 900;
+    }
+
+    .section {
+      margin-bottom: 24px;
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      margin-bottom: 10px;
+    }
+
+    .section-head h2 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .section-head p {
+      margin: 0;
+      color: #64748b;
+      font-size: 13px;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+
+    .panel {
+      padding: 14px;
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      min-width: 700px;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 11px 12px;
+      border-bottom: 1px solid #e5edf7;
+      text-align: left;
+      font-size: 14px;
+      vertical-align: top;
+    }
+
+    th {
+      background: #f8fafc;
+      color: #334155;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    .risk {
+      padding: 5px 9px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .high { background: #fee2e2; color: #991b1b; }
+    .medium { background: #ffedd5; color: #9a3412; }
+    .low { background: #dcfce7; color: #166534; }
+
+    input {
+      padding: 10px;
+      border-radius: 10px;
+      border: 1px solid #dbe4f0;
+      font-weight: bold;
+    }
+
+    pre {
+      background: #0b1220;
+      color: #bbf7d0;
+      padding: 16px;
+      border-radius: 14px;
+      max-height: 360px;
+      overflow: auto;
+    }
+
+    .footer {
+      text-align: center;
+      color: #64748b;
+      margin-top: 34px;
+      font-size: 13px;
+    }
+
+    @media (max-width: 1000px) {
+      .mission, .two-col {
+        grid-template-columns: 1fr;
+      }
+
+      .metrics {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="pill">● AI Lab Mission Control</div>
+    <h1>ShamsDAIS ERP Twin</h1>
+    <div class="subtitle">
+      Secure agentic ERP Twin for research-lab operations, manufacturing-AI data quality,
+      equipment conflict detection, project lineage, and human-approved AI proposals.
+    </div>
+    <div class="korean">
+      연구실 운영 · 데이터 품질 · AI 모델 계보를 통합 관리하는 지능형 ERP Twin
+    </div>
+  </header>
+
+  <main>
+    <section class="bar">
+      <span id="apiStatus" class="badge info">API status: checking...</span>
+      <span class="badge info">Backend: FastAPI</span>
+      <span class="badge info">Database: PostgreSQL / pgvector</span>
+      <span class="badge agent">Agent mode: proposal-first, human-approved</span>
+      <button onclick="refreshAll()">Refresh Mission Control</button>
+    </section>
+
+    <section class="mission">
+      <div class="card">
+        <div class="title-small">AI Copilot Insight</div>
+        <div id="copilotInsight" class="insight">Loading ERP Twin intelligence...</div>
+      </div>
+
+      <div class="card">
+        <div class="title-small">System Trust Score</div>
+        <div><span id="trustScore" class="trust">--</span> / 100</div>
+        <div style="color:#64748b;font-size:13px;">Estimated from current severity distribution.</div>
+      </div>
+    </section>
+
+    <section class="metrics">
+      <div class="card">
+        <div class="metric-label">Projects</div>
+        <div id="metricProjects" class="metric-value">-</div>
+      </div>
+      <div class="card">
+        <div class="metric-label">Datasets</div>
+        <div id="metricDatasets" class="metric-value">-</div>
+      </div>
+      <div class="card">
+        <div class="metric-label">Agent Proposals</div>
+        <div id="metricProposals" class="metric-value">-</div>
+      </div>
+      <div class="card">
+        <div class="metric-label">Risk Instances</div>
+        <div id="metricIssues" class="metric-value">-</div>
+      </div>
+    </section>
+
+    <section class="metrics">
+      <div class="card">
+        <div class="metric-label">Issue Types</div>
+        <div id="dqIssueTypes" class="metric-value">-</div>
+      </div>
+      <div class="card">
+        <div class="metric-label">Total Issues</div>
+        <div id="dqTotalInstances" class="metric-value">-</div>
+      </div>
+      <div class="card">
+        <div class="metric-label">High Severity</div>
+        <div id="dqHigh" class="metric-value">-</div>
+      </div>
+      <div class="card">
+        <div class="metric-label">Medium Severity</div>
+        <div id="dqMedium" class="metric-value">-</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Project Portfolio</h2>
+        <p>Research projects, budget, and status</p>
+      </div>
+      <div id="projectsTable" class="panel"></div>
+    </section>
+
+    <section class="section two-col">
+      <div>
+        <div class="section-head">
+          <h2>Agent Decision Queue</h2>
+          <p>High-risk proposals</p>
+        </div>
+        <div id="proposalsTable" class="panel"></div>
+      </div>
+
+      <div>
+        <div class="section-head">
+          <h2>Equipment Conflict Radar</h2>
+          <p>Detected double-bookings</p>
+        </div>
+        <div id="conflictsTable" class="panel"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Data Quality Firewall</h2>
+        <p>Detected risk categories and recommended actions</p>
+      </div>
+      <div id="issuesTable" class="panel"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Research Lineage Explorer</h2>
+        <p>Project → Dataset → Model → Experiment → Publication</p>
+      </div>
+      <div class="panel">
+        <input id="lineageProjectId" value="PJ-0003" />
+        <button onclick="loadLineage()">Load Lineage</button>
+        <button onclick="setDemoProject('PJ-0003')">Welding Demo</button>
+        <div id="lineageTable" style="margin-top:14px;"></div>
+      </div>
+    </section>
+
+    
+    <section class="section">
+      <div class="section-head">
+        <h2>Professor Demo Interpretation</h2>
+        <p>Product-facing explanation of the ERP Twin intelligence layer</p>
+      </div>
+
+      <div class="panel">
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;">
+          <div class="card" style="padding:18px;">
+            <div class="title-small">1. Monitor</div>
+            <p style="line-height:1.6;margin:0;">
+              The ERP Twin monitors projects, datasets, models, experiments,
+              purchases, invoices, equipment reservations, and publication lineage.
+            </p>
+          </div>
+
+          <div class="card" style="padding:18px;">
+            <div class="title-small">2. Detect</div>
+            <p style="line-height:1.6;margin:0;">
+              The Data Quality Firewall detects missing ownership, outdated model
+              lineage, budget violations, equipment conflicts, and reproducibility gaps.
+            </p>
+          </div>
+
+          <div class="card" style="padding:18px;">
+            <div class="title-small">3. Govern</div>
+            <p style="line-height:1.6;margin:0;">
+              AI agents create proposals with confidence and evidence, while high-risk
+              changes remain human-approved before the ERP state is modified.
+            </p>
+          </div>
+        </div>
+
+        <div style="margin-top:14px;padding:16px;border-radius:16px;background:#eff6ff;border:1px solid #bfdbfe;line-height:1.7;">
+          <strong>Core demo message:</strong>
+          This is not a conventional ERP dashboard. It is an AI Lab Mission Control system
+          that combines lab operations, research lineage, data-quality risk detection,
+          and human-supervised agentic decision support.
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">
+      ShamsDAIS ERP Twin Demo — PostgreSQL, FastAPI, Data Quality Firewall, and AI Lab Mission Control UI.
+    </div>
+  </main>
+
+  <script>
+    const API_BASE = "http://127.0.0.1:8001";
+
+    function setText(id, value) {
+      document.getElementById(id).textContent = value;
+    }
+
+    function safe(value) {
+      if (value === null || value === undefined) return "-";
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;");
+    }
+
+    function short(value, n = 70) {
+      if (!value) return "-";
+      value = String(value);
+      return value.length > n ? value.slice(0, n) + "..." : value;
+    }
+
+    function krw(value) {
+      if (value === null || value === undefined) return "-";
+      return "₩" + Number(value).toLocaleString("ko-KR");
+    }
+
+    async function fetchJson(path) {
+      const res = await fetch(API_BASE + path);
+      if (!res.ok) throw new Error(await res.text());
+      return await res.json();
+    }
+
+    function renderTable(id, cols, rows) {
+      const box = document.getElementById(id);
+      if (!rows || rows.length === 0) {
+        box.innerHTML = "No records found.";
+        return;
+      }
+
+      let html = "<table><thead><tr>";
+      cols.forEach(c => html += `<th>${safe(c.label)}</th>`);
+      html += "</tr></thead><tbody>";
+
+      rows.forEach(row => {
+        html += "<tr>";
+        cols.forEach(c => {
+          let v = c.render ? c.render(row) : row[c.key];
+          html += `<td>${c.html ? v : safe(v)}</td>`;
+        });
+        html += "</tr>";
+      });
+
+      html += "</tbody></table>";
+      box.innerHTML = html;
+    }
+
+    function riskBadge(sev) {
+      sev = sev || "low";
+      return `<span class="risk ${safe(sev)}">${safe(sev)}</span>`;
+    }
+
+    function trustScore(dq) {
+      const s = dq.severity_counts || {};
+      let score = 100 - (s.critical || 0) * 15 - (s.high || 0) * 4 - (s.medium || 0) * 2;
+      return Math.max(0, Math.min(100, Math.round(score)));
+    }
+
+    async function checkHealth() {
+      const data = await fetchJson("/health");
+      const badge = document.getElementById("apiStatus");
+      badge.className = "badge good";
+      badge.textContent = `API: healthy | DB: ${data.database} | port ${data.db_port}`;
+    }
+
+    async function loadSummary() {
+      const data = await fetchJson("/summary");
+      const s = data.summary || {};
+      setText("metricProjects", s.projects);
+      setText("metricDatasets", s.datasets);
+      setText("metricProposals", s.agent_proposals);
+      return data;
+    }
+
+    async function loadDQSummary() {
+      const data = await fetchJson("/data-quality/summary");
+      setText("dqIssueTypes", data.issue_types);
+      setText("dqTotalInstances", data.total_issue_instances);
+      setText("dqHigh", data.severity_counts?.high);
+      setText("dqMedium", data.severity_counts?.medium);
+      setText("metricIssues", data.total_issue_instances);
+      setText("trustScore", trustScore(data));
+      return data;
+    }
+
+    async function loadProjects() {
+      const rows = await fetchJson("/projects");
+      renderTable("projectsTable", [
+        {key:"project_code", label:"Code"},
+        {key:"title", label:"Title", render:r=>short(r.title, 55)},
+        {key:"theme", label:"Theme"},
+        {key:"status", label:"Status"},
+        {key:"total_budget_krw", label:"Budget", render:r=>krw(r.total_budget_krw)},
+        {key:"spent_percent", label:"Spent", render:r=>`${r.spent_percent}%`}
+      ], rows);
+    }
+
+    async function loadProposals() {
+      const rows = await fetchJson("/agent-proposals/high-risk");
+      renderTable("proposalsTable", [
+        {key:"proposal_id", label:"ID"},
+        {key:"proposal_type", label:"Type", render:r=>short(r.proposal_type, 32)},
+        {key:"title", label:"Finding", render:r=>short(r.title, 70)},
+        {key:"confidence", label:"Confidence"}
+      ], rows.slice(0, 10));
+    }
+
+    async function loadConflicts() {
+      const rows = await fetchJson("/equipment/conflicts");
+      renderTable("conflictsTable", [
+        {key:"equipment_id", label:"Equipment"},
+        {key:"equipment_name", label:"Asset"},
+        {key:"reservation_a", label:"Reservation A"},
+        {key:"reservation_b", label:"Reservation B"},
+        {key:"a_start", label:"Start", render:r=>short(r.a_start, 19)}
+      ], rows);
+    }
+
+    async function loadDQReport() {
+      const data = await fetchJson("/data-quality/report");
+      renderTable("issuesTable", [
+        {key:"issue_id", label:"ID"},
+        {key:"severity", label:"Severity", render:r=>riskBadge(r.severity), html:true},
+        {key:"title", label:"Issue"},
+        {key:"count", label:"Count"},
+        {key:"recommended_action", label:"Recommended Action", render:r=>short(r.recommended_action, 115)}
+      ], data.issues || []);
+    }
+
+    async function loadEvents() {
+      const data = await fetchJson("/events/summary");
+      document.getElementById("eventsSummary").textContent = JSON.stringify(data, null, 2);
+    }
+
+    function setDemoProject(id) {
+      document.getElementById("lineageProjectId").value = id;
+      loadLineage();
+    }
+
+    async function loadLineage() {
+      const id = document.getElementById("lineageProjectId").value.trim();
+      const data = await fetchJson(`/lineage/project/${encodeURIComponent(id)}`);
+      renderTable("lineageTable", [
+        {key:"dataset_code", label:"Dataset"},
+        {key:"model_code", label:"Model"},
+        {key:"experiment_code", label:"Experiment"},
+        {key:"experiment_status", label:"Status"},
+        {key:"publication_title", label:"Publication", render:r=>short(r.publication_title, 75)},
+        {key:"reproducibility_package_status", label:"Reproducibility"}
+      ], (data.lineage || []).slice(0, 30));
+
+      console.log("Selected project:", data.project);
+    }
+
+    async function refreshAll() {
+      try {
+        await checkHealth();
+        const summary = await loadSummary();
+        const dq = await loadDQSummary();
+
+        const s = summary.summary || {};
+        const sev = dq.severity_counts || {};
+        setText(
+          "copilotInsight",
+          `The ERP Twin is monitoring ${s.projects} projects, ${s.datasets} datasets, ${s.model_assets} models, and ${s.experiments} experiments. ` +
+          `The Data Quality Firewall detected ${dq.total_issue_instances} issue instances across ${dq.issue_types} risk categories. ` +
+          `${sev.high} high-severity categories require human review before agentic state changes.`
+        );
+
+        await loadProjects();
+        await loadProposals();
+        await loadConflicts();
+        await loadDQReport();
+        await loadLineage();
+      } catch (err) {
+        document.getElementById("apiStatus").className = "badge bad";
+        setText("apiStatus", "API or DB error");
+        setText("copilotInsight", "Mission Control loaded, but backend or database is not reachable.");
+        console.error(err.message);
+      }
+    }
+
+    refreshAll();
+  </script>
+</body>
+</html>

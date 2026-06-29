@@ -1,0 +1,13 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+
+# Temporary frontend backups
+frontend/index_before_clean_professor_demo.html
+frontend/index_before_clean_ui.html
+frontend/index_backup_basic_dashboard.html
+frontend/index_basic_backup.html
