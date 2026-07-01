@@ -17,67 +17,16 @@ import {
   UserCheck,
 } from "lucide-react";
 
-const API_BASE = process.env.NEXT_PUBLIC_API_BASE || "http://localhost:8001";
-
-type Summary = {
-  projects?: number;
-  datasets?: number;
-  model_assets?: number;
-  experiments?: number;
-  agent_proposals?: number;
-};
-
-type SeverityCounts = {
-  critical?: number;
-  high?: number;
-  medium?: number;
-  low?: number;
-};
-
-type DqSummary = {
-  issue_types?: number;
-  total_issue_instances?: number;
-  severity_counts?: SeverityCounts;
-};
-
-type Issue = {
-  issue_id?: string;
-  severity?: string;
-  title?: string;
-  count?: number;
-  recommended_action?: string;
-};
-
-type Proposal = {
-  proposal_id?: string;
-  proposal_type?: string;
-  title?: string;
-  confidence?: number | string;
-};
-
-type Conflict = {
-  equipment_id?: string;
-  equipment_name?: string;
-  reservation_a?: string;
-  reservation_b?: string;
-  a_start?: string;
-};
-
-type LineageRow = {
-  dataset_code?: string;
-  model_code?: string;
-  experiment_code?: string;
-  experiment_status?: string;
-  publication_title?: string;
-  reproducibility_package_status?: string;
-};
-
-type Project = {
-  project_id?: string;
-  project_code?: string;
-  title?: string;
-  theme?: string;
-};
+import {
+  getJson,
+  type Conflict,
+  type DqSummary,
+  type Issue,
+  type LineageRow,
+  type Project,
+  type Proposal,
+  type Summary,
+} from "../lib/api";
 
 type DecisionPassport = {
   id: string;
@@ -101,15 +50,6 @@ function confidence(value: unknown) {
   if (!Number.isFinite(n)) return String(value);
   if (n <= 1) return `${Math.round(n * 100)}%`;
   return `${Math.round(n)}%`;
-}
-
-async function getJson<T>(path: string): Promise<T> {
-  const res = await fetch(`${API_BASE}${path}`);
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`${res.status} ${res.statusText}: ${text}`);
-  }
-  return res.json();
 }
 
 function severityClass(severity?: string) {
