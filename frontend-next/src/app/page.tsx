@@ -28,6 +28,8 @@ import {
   type Summary,
 } from "../lib/api";
 
+import { ProductMetric } from "../components/ProductMetric";
+
 type DecisionPassport = {
   id: string;
   title: string;
@@ -270,10 +272,10 @@ export default function Home() {
             </div>
 
             <div className="live-proof">
-              <Metric label="Projects" value={summary.projects} />
-              <Metric label="Datasets" value={summary.datasets} />
-              <Metric label="Risks" value={dq.total_issue_instances} />
-              <Metric label="AI proposals" value={summary.agent_proposals} />
+              <ProductMetric label="Projects" value={summary.projects} />
+              <ProductMetric label="Datasets" value={summary.datasets} />
+              <ProductMetric label="Risks" value={dq.total_issue_instances} />
+              <ProductMetric label="AI proposals" value={summary.agent_proposals} />
             </div>
           </section>
 
@@ -468,15 +470,6 @@ function Principle({
       <div>{icon}</div>
       <b>{title}</b>
       <span>{text}</span>
-    </div>
-  );
-}
-
-function Metric({ label, value }: { label: string; value?: number }) {
-  return (
-    <div className="metric-chip">
-      <span>{label}</span>
-      <b>{value ?? "—"}</b>
     </div>
   );
 }
