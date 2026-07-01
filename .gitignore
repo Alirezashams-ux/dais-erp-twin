@@ -11,3 +11,10 @@ frontend/index_before_clean_professor_demo.html
 frontend/index_before_clean_ui.html
 frontend/index_backup_basic_dashboard.html
 frontend/index_basic_backup.html
+
+# Node / Next.js
+node_modules/
+.next/
+frontend-next/node_modules/
+frontend-next/.next/
+frontend-next/.env.local
