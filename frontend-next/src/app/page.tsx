@@ -288,21 +288,28 @@ export default function Home() {
 
         <section className="grid flex-1 grid-cols-1 gap-6 py-7 xl:grid-cols-[0.92fr_1.08fr]">
           <section className="hero-panel">
-            <div className="tiny-label">First-meeting product concept</div>
+            <div className="tiny-label">Evidence-governed agentic ERP</div>
 
             <h1 className="hero-title">
-              ERP automation that cannot act without evidence.
+              No AI action without a Trust Passport.
             </h1>
 
             <p className="hero-lead">
-              A human-supervised ERP Twin where every AI proposal must carry a
-              Trust Passport: operational risk, research lineage, evidence source,
-              and approval control before any high-risk state change.
+              ShamsDAIS turns every high-risk AI recommendation into a governed decision object:
+              risk, evidence, lineage, and human approval must be attached before the ERP state can change.
             </p>
 
             <p className="hero-korean">
               연구실 운영 · 데이터 품질 · 모델 계보 · 인간 승인 기반 에이전트 ERP Twin
             </p>
+
+            <div className="professor-strip">
+              <FileCheck2 size={19} />
+              <span>
+                This is not a dashboard that explains decisions after they happen.
+                It is an ERP gate that prevents AI from acting until the evidence is complete.
+              </span>
+            </div>
 
             <div className="mt-8 grid grid-cols-1 gap-3 md:grid-cols-3">
               <Principle
