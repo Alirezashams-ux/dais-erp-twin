@@ -5,7 +5,6 @@ import {
   Activity,
   AlertTriangle,
   ArrowRight,
-  BadgeCheck,
   Database,
   FileCheck2,
   Fingerprint,
@@ -29,16 +28,7 @@ import {
 } from "../lib/api";
 
 import { ProductMetric } from "../components/ProductMetric";
-
-type DecisionPassport = {
-  id: string;
-  title: string;
-  severity: "critical" | "high" | "medium" | "low" | "info";
-  aiProposal: string;
-  evidence: string;
-  humanGate: string;
-  trustState: string;
-};
+import { TrustPassportCard, type DecisionPassport } from "../components/TrustPassportCard";
 
 function shortText(value: unknown, max = 86) {
   if (value === null || value === undefined || value === "") return "—";
@@ -282,58 +272,7 @@ export default function Home() {
           <section className="passport-stage">
             <div className="passport-glow" />
 
-            <article className="trust-passport">
-              <div className="passport-top">
-                <div>
-                  <div className="tiny-label">Decision Passport</div>
-                  <div className="passport-id">{passport.id}</div>
-                </div>
-                <span className={`severity-pill ${severityClass(passport.severity)}`}>
-                  {passport.severity === "high" || passport.severity === "critical"
-                    ? "Human review required"
-                    : passport.severity === "medium"
-                      ? "Evidence check"
-                      : "Trust passport"}
-                </span>
-              </div>
-
-              <h2>{passport.title}</h2>
-
-              <div className="passport-body">
-                <PassportRow
-                  icon={<Sparkles size={18} />}
-                  label="AI proposal"
-                  value={passport.aiProposal}
-                />
-                <PassportRow
-                  icon={<Database size={18} />}
-                  label="Evidence"
-                  value={passport.evidence}
-                />
-                <PassportRow
-                  icon={<LockKeyhole size={18} />}
-                  label="Human approval gate"
-                  value={passport.humanGate}
-                />
-                <PassportRow
-                  icon={<BadgeCheck size={18} />}
-                  label="Trust state"
-                  value={passport.trustState}
-                />
-              </div>
-
-              <div className="passport-actions">
-                <button onClick={() => alert("Prototype action: approval event will be added in the next backend phase.")}>
-                  Approve
-                </button>
-                <button className="ghost" onClick={() => alert("Prototype action: request-evidence workflow will be added next.")}>
-                  Request evidence
-                </button>
-                <button className="ghost" onClick={() => alert("Prototype action: rejection reason and workflow ledger event will be added next.")}>
-                  Reject
-                </button>
-              </div>
-            </article>
+            <TrustPassportCard passport={passport} />
 
             <div className="orbit-card data-card">
               <Database size={22} />
@@ -470,26 +409,6 @@ function Principle({
       <div>{icon}</div>
       <b>{title}</b>
       <span>{text}</span>
-    </div>
-  );
-}
-
-function PassportRow({
-  icon,
-  label,
-  value,
-}: {
-  icon: React.ReactNode;
-  label: string;
-  value: string;
-}) {
-  return (
-    <div className="passport-row">
-      <div className="row-icon">{icon}</div>
-      <div>
-        <span>{label}</span>
-        <b>{value}</b>
-      </div>
     </div>
   );
 }
